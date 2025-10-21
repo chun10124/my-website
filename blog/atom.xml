@@ -13,7 +13,8 @@
         <link href="https://chun10124.github.io/my-website/blog/cool-post"/>
         <updated>2025-10-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[這是我的第一篇文章]]></summary>
-        <content type="html"><![CDATA[<p>這是我的第一篇文章</p>]]></content>
+        <content type="html"><![CDATA[<p>這是我的第一篇文章</p>
+<p>練習怎麼部署</p>]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>

@@ -14,7 +14,8 @@
             <guid>https://chun10124.github.io/my-website/blog/cool-post</guid>
             <pubDate>Tue, 21 Oct 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[這是我的第一篇文章]]></description>
-            <content:encoded><![CDATA[<p>這是我的第一篇文章</p>]]></content:encoded>
+            <content:encoded><![CDATA[<p>這是我的第一篇文章</p>
+<p>練習怎麼部署</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
