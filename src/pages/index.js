@@ -10,25 +10,20 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
+    <header className={styles.myCustomHeader}>
+      <div className={styles.myContentContainer}>
+        <Heading as="h1" className={styles.myTitle}>
           {siteConfig.title}
         </Heading>
-        <p
-          style={{
-            color: '#eee',
-            fontSize: '1.8rem',
-            fontWeight: 450, 
-          }}
-        >
+        <p className={styles.myTagline}>
           我的想法與生活
         </p>
-        <div className={styles.buttons}>
+
+        <div className={styles.myButtonContainer}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            閱讀最新文章
           </Link>
         </div>
       </div>

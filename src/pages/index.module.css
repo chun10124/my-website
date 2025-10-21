@@ -3,28 +3,48 @@
  * and scoped locally.
  */
 
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.heroBanner {
+/* 1. 頂層橫幅容器：您可以在這裡完全定義背景、高度和定位 */
+.myCustomHeader {
   background-image: url('/img/banner.jpeg');
-  background-size: cover; /* 讓圖片覆蓋整個區域*/
-  background-position: center center; /* 圖片置中*/
-  min-height: 280px;
+  background-size: cover;
+  background-position: center 48%;
+  padding-top: 10%;
+  /* 您想要的正方形或更高的比例 */
+  min-height: 320px; 
+  
+  display: flex;
+  justify-content: center; /* 水平置中 */
+  text-align: center;
+  padding: 0 20px; /* 內邊距，避免內容緊貼邊緣 */
+}
+
+/* 2. 內容容器：定義內容的佈局 */
+.myContentContainer {
+  /* 讓內容垂直佈局 */
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  max-width: 960px; /* 限制內容的最大寬度 */
+  gap: 3.3rem;
+  transform: translateY(50px);
+}
+
+/* 3. 標題樣式 */
+.myTitle {
+  font-size: 3.8rem;
+  color: white; 
+}
+
+/* 4. 副標題樣式 (您現在可以完全控制位置了) */
+.myTagline {
+  font-size: 1.9rem;
+  /* 設置上邊距為負值，將其向上拉近標題 */
+  margin-top: -77px; 
+  color: white; 
+  font-weight: 550;
+}
+
+/* 5. 按鈕容器 */
+.myButtonContainer {
+  /* */
 }
