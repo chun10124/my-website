@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chun10124.github.io/my-website/blog</id>
-    <title>My Site Blog</title>
+    <title>TzuChun.Blog Blog</title>
     <updated>2025-10-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chun10124.github.io/my-website/blog"/>
-    <subtitle>My Site Blog</subtitle>
+    <subtitle>TzuChun.Blog Blog</subtitle>
     <icon>https://chun10124.github.io/my-website/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[第一篇文章]]></title>
