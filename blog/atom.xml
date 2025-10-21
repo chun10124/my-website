@@ -15,6 +15,9 @@
         <summary type="html"><![CDATA[這是我的第一篇文章]]></summary>
         <content type="html"><![CDATA[<p>這是我的第一篇文章</p>
 <p>練習怎麼部署</p>]]></content>
+        <author>
+            <name>TzuChun Chao</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
