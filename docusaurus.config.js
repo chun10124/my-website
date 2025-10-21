@@ -86,7 +86,7 @@ const config = {
         title: 'TzuChun.Blog',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/icon.logo.jpg',
+          src: '/img/icon.logo.JPG',
         },
         items: [
           {
