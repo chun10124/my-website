@@ -21,3 +21,10 @@
   align-items: center;
   justify-content: center;
 }
+
+.heroBanner {
+  background-image: url('/img/banner.jpeg');
+  background-size: cover; /* 讓圖片覆蓋整個區域*/
+  background-position: center center; /* 圖片置中*/
+  min-height: 280px;
+}

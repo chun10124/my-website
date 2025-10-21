@@ -28,3 +28,34 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* 讓 navbar logo 變成圓形 */
+.navbar__logo img {
+  border-radius: 50%;   /* 圓形 */
+  width: 40px;          /* 依需要調整大小 */
+  height: 40px;         /* 保持寬高一致 */
+  object-fit: cover;    /* 圖片不變形 */
+}
+
+/* 可選：滑過時微微放大 */
+.navbar__logo img:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+
+/* 讓整個左上角（logo + title）一起有放大效果 */
+.navbar__brand {
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+/* 滑鼠移上去時放大 */
+.navbar__brand:hover {
+  transform: scale(1.05);
+}
+
+/* 滑過整個區塊時，logo 也同步放大一點點 */
+.navbar__brand:hover .navbar__logo img {
+  transform: scale(1.05);
+}

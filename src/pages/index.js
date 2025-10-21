@@ -10,12 +10,20 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('hero', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p
+          style={{
+            color: '#eee',
+            fontSize: '1.8rem',
+            fontWeight: 450, 
+          }}
+        >
+          我的想法與生活
+        </p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"

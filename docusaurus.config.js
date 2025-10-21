@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'TzuChun.Blog',
   tagline: '我的想法與生活',
-  favicon: 'img/favicon.ico',
+  favicon: '/img/icon.logo.jpg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -83,10 +83,10 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'TzuChun.Blog',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/icon.logo.jpg',
         },
         items: [
           {

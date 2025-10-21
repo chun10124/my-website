@@ -10,6 +10,7 @@ yangshun:
     github: yangshun
     newsletter: https://www.greatfrontend.com
 
+
 slorber:
   name: Sébastien Lorber
   title: Docusaurus maintainer
@@ -23,3 +24,11 @@ slorber:
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+tzuchun:
+  name: TzuChun Chao
+  title: Blog Owner
+  image_url: /img/tzuchun.jpg
+  socials:
+    Facebook: https://www.facebook.com/max.chao.33/
+    email: tzuchun11232004@gmail.com
