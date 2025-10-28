@@ -13,8 +13,8 @@
             <link>https://chun10124.github.io/my-website/blog/rain-post</link>
             <guid>https://chun10124.github.io/my-website/blog/rain-post</guid>
             <pubDate>Wed, 22 Oct 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[這是孟孟]]></description>
-            <content:encoded><![CDATA[<p>這是孟孟
+            <description><![CDATA[這是孟孟!]]></description>
+            <content:encoded><![CDATA[<p>這是孟孟!
 <img decoding="async" loading="lazy" alt="我的部落格範例圖片" src="https://chun10124.github.io/my-website/assets/images/rita-0c383ee1b435c7f6b76c5ffa57922f4a.jpeg" width="3024" height="4032" class="img_ev3q"></p>]]></content:encoded>
         </item>
         <item>
@@ -24,7 +24,7 @@
             <pubDate>Tue, 21 Oct 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[這是我的第一篇文章]]></description>
             <content:encoded><![CDATA[<p>這是我的第一篇文章</p>
-<p>練習怎麼部署</p>]]></content:encoded>
+<p>練習怎麼部署!</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
