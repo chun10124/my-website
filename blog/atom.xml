@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://chun10124.github.io/my-website/blog</id>
+    <id>https://chun10124.github.io/my-website/blog/</id>
     <title>TzuChun.Blog Blog</title>
     <updated>2025-10-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://chun10124.github.io/my-website/blog"/>
+    <link rel="alternate" href="https://chun10124.github.io/my-website/blog/"/>
     <subtitle>TzuChun.Blog Blog</subtitle>
     <icon>https://chun10124.github.io/my-website/img/icon.logo.jpg</icon>
     <entry>
         <title type="html"><![CDATA[第二篇文章]]></title>
-        <id>https://chun10124.github.io/my-website/blog/rain-post</id>
-        <link href="https://chun10124.github.io/my-website/blog/rain-post"/>
+        <id>https://chun10124.github.io/my-website/blog/rain-post/</id>
+        <link href="https://chun10124.github.io/my-website/blog/rain-post/"/>
         <updated>2025-10-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[這是孟孟!]]></summary>
         <content type="html"><![CDATA[<p>這是孟孟!
@@ -21,8 +21,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[第一篇文章]]></title>
-        <id>https://chun10124.github.io/my-website/blog/cool-post</id>
-        <link href="https://chun10124.github.io/my-website/blog/cool-post"/>
+        <id>https://chun10124.github.io/my-website/blog/cool-post/</id>
+        <link href="https://chun10124.github.io/my-website/blog/cool-post/"/>
         <updated>2025-10-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[這是我的第一篇文章]]></summary>
         <content type="html"><![CDATA[<p>這是我的第一篇文章</p>
