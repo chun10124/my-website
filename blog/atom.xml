@@ -2,18 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chun10124.github.io/my-website/blog/</id>
     <title>TzuChun.Blog Blog</title>
-    <updated>2025-10-30T00:00:00.000Z</updated>
+    <updated>2025-11-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chun10124.github.io/my-website/blog/"/>
     <subtitle>TzuChun.Blog Blog</subtitle>
     <icon>https://chun10124.github.io/my-website/img/icon.logo.jpg</icon>
     <entry>
-        <title type="html"><![CDATA[測試一下排版]]></title>
-        <id>https://chun10124.github.io/my-website/blog/tired-post/</id>
-        <link href="https://chun10124.github.io/my-website/blog/tired-post/"/>
-        <updated>2025-10-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧]]></summary>
-        <content type="html"><![CDATA[<p>吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧</p>]]></content>
+        <title type="html"><![CDATA[分辨真正的專家]]></title>
+        <id>https://chun10124.github.io/my-website/blog/real-master-post/</id>
+        <link href="https://chun10124.github.io/my-website/blog/real-master-post/"/>
+        <updated>2025-11-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[真正的專家和唬爛仔分別有幾個明顯的特徵...]]></summary>
+        <content type="html"><![CDATA[<p>瞎忙還是專家？</p>]]></content>
+        <author>
+            <name>TzuChun Chao</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第一次拍形象照]]></title>
+        <id>https://chun10124.github.io/my-website/blog/picture-day-post/</id>
+        <link href="https://chun10124.github.io/my-website/blog/picture-day-post/"/>
+        <updated>2025-11-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[今天跟社團一起來拍個人形象照，但特別的是...]]></summary>
         <author>
             <name>TzuChun Chao</name>
         </author>

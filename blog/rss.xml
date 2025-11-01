@@ -4,17 +4,24 @@
         <title>TzuChun.Blog Blog</title>
         <link>https://chun10124.github.io/my-website/blog/</link>
         <description>TzuChun.Blog Blog</description>
-        <lastBuildDate>Thu, 30 Oct 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 02 Nov 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[測試一下排版]]></title>
-            <link>https://chun10124.github.io/my-website/blog/tired-post/</link>
-            <guid>https://chun10124.github.io/my-website/blog/tired-post/</guid>
-            <pubDate>Thu, 30 Oct 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧]]></description>
-            <content:encoded><![CDATA[<p>吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧吧</p>]]></content:encoded>
+            <title><![CDATA[分辨真正的專家]]></title>
+            <link>https://chun10124.github.io/my-website/blog/real-master-post/</link>
+            <guid>https://chun10124.github.io/my-website/blog/real-master-post/</guid>
+            <pubDate>Sun, 02 Nov 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[真正的專家和唬爛仔分別有幾個明顯的特徵...]]></description>
+            <content:encoded><![CDATA[<p>瞎忙還是專家？</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[第一次拍形象照]]></title>
+            <link>https://chun10124.github.io/my-website/blog/picture-day-post/</link>
+            <guid>https://chun10124.github.io/my-website/blog/picture-day-post/</guid>
+            <pubDate>Sat, 01 Nov 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[今天跟社團一起來拍個人形象照，但特別的是...]]></description>
         </item>
         <item>
             <title><![CDATA[吃火鍋]]></title>
