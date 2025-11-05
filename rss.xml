@@ -4,27 +4,11 @@
         <title>TzuChun.Blog 全站 RSS Feed</title>
         <link>https://tzuchun.com</link>
         <description>整合最新的 Blog 貼文與有標記的 Docs 筆記。</description>
-        <lastBuildDate>Wed, 05 Nov 2025 09:40:57 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Nov 2025 15:44:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
         <copyright>© 2025 TzuChun</copyright>
-        <item>
-            <link>https://tzuchun.comundefined</link>
-            <guid>https://tzuchun.comundefined</guid>
-            <pubDate>Wed, 05 Nov 2025 09:40:57 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Recent posts]]></title>
-            <link>https://tzuchun.comundefined</link>
-            <guid>https://tzuchun.comundefined</guid>
-            <pubDate>Wed, 05 Nov 2025 09:40:57 GMT</pubDate>
-        </item>
-        <item>
-            <link>https://tzuchun.comundefined</link>
-            <guid>https://tzuchun.comundefined</guid>
-            <pubDate>Wed, 05 Nov 2025 09:40:57 GMT</pubDate>
-        </item>
         <item>
             <title><![CDATA[第一篇文章]]></title>
             <link>https://tzuchun.com/blog/cool-post</link>
