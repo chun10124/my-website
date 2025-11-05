@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmy_website=globalThis.webpackChunkmy_website||[]).push([[9264],{9769:e=>{e.exports=JSON.parse('{"title":"\u6240\u6709\u60f3\u6cd5\u788e\u7247","items":[{"title":"2025.10.24","permalink":"/snippets/first-thought","unlisted":false,"date":"2025-10-24T00:00:00.000Z"}]}')}}]);
