@@ -1,0 +1,61 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* 讓 navbar logo 變成圓形 */
+.navbar__logo img {
+  border-radius: 50%;   /* 圓形 */
+  width: 40px;          /* 依需要調整大小 */
+  height: 40px;         /* 保持寬高一致 */
+  object-fit: cover;    /* 圖片不變形 */
+}
+
+/* 可選：滑過時微微放大 */
+.navbar__logo img:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+
+/* 讓整個左上角（logo + title）一起有放大效果 */
+.navbar__brand {
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+/* 滑鼠移上去時放大 */
+.navbar__brand:hover {
+  transform: scale(1.05);
+}
+
+/* 滑過整個區塊時，logo 也同步放大一點點 */
+.navbar__brand:hover .navbar__logo img {
+  transform: scale(1.05);
+}
