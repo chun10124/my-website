@@ -4,7 +4,7 @@
         <title>TzuChun.Blog 全站 RSS Feed</title>
         <link>https://tzuchun.com</link>
         <description>整合最新的 Blog 貼文與有標記的 Docs 筆記。</description>
-        <lastBuildDate>Wed, 05 Nov 2025 15:44:40 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Nov 2025 15:59:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
@@ -43,6 +43,15 @@
 ## Markdown heading
 
 Markdown text with [links](/docs/notes-knowledge/first.md)...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[面試技巧]]></title>
+            <link>https://tzuchun.com/docs/interview</link>
+            <guid>https://tzuchun.com/docs/interview</guid>
+            <pubDate>Sat, 01 Nov 2025 16:00:00 GMT</pubDate>
+            <description><![CDATA[面試了 60 個人後，我的一些想法...]]></description>
+            <content:encoded><![CDATA[
+## 面試別再這樣啦！...]]></content:encoded>
         </item>
     </channel>
 </rss>
