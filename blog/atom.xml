@@ -8,7 +8,7 @@
     <subtitle>TzuChun.Blog Blog</subtitle>
     <icon>https://tzuchun.com/img/icon.logo.jpg</icon>
     <entry>
-        <title type="html"><![CDATA[測試排版]]></title>
+        <title type="html"><![CDATA[線性代數考試]]></title>
         <id>https://tzuchun.com/blog/test-post</id>
         <link href="https://tzuchun.com/blog/test-post"/>
         <updated>2025-11-01T00:00:00.000Z</updated>
@@ -19,7 +19,7 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[第二篇文章]]></title>
+        <title type="html"><![CDATA[跟孟吃火鍋]]></title>
         <id>https://tzuchun.com/blog/rain-post</id>
         <link href="https://tzuchun.com/blog/rain-post"/>
         <updated>2025-10-22T00:00:00.000Z</updated>
@@ -31,13 +31,12 @@
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[第一篇文章]]></title>
+        <title type="html"><![CDATA[為什麼要建立個人網站？]]></title>
         <id>https://tzuchun.com/blog/cool-post</id>
         <link href="https://tzuchun.com/blog/cool-post"/>
-        <updated>2025-10-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[這是我的第一篇文章]]></summary>
-        <content type="html"><![CDATA[<p>這是我的第一篇文章</p>
-<p>練習怎麼部署</p>]]></content>
+        <updated>2025-10-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[為什麼要建立個人網站？]]></summary>
+        <content type="html"><![CDATA[<p>為什麼要建立個人網站？</p>]]></content>
         <author>
             <name>TzuChun Chao</name>
         </author>

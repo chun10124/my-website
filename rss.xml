@@ -4,21 +4,21 @@
         <title>TzuChun.Blog 全站 RSS Feed</title>
         <link>https://tzuchun.com</link>
         <description>整合最新的 Blog 貼文與有標記的 Docs 筆記。</description>
-        <lastBuildDate>Thu, 06 Nov 2025 18:29:24 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Nov 2025 09:58:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
         <copyright>© 2025 TzuChun</copyright>
         <item>
-            <title><![CDATA[第一篇文章]]></title>
+            <title><![CDATA[為什麼要建立個人網站？]]></title>
             <link>https://tzuchun.com/blog/cool-post</link>
             <guid>https://tzuchun.com/blog/cool-post</guid>
-            <pubDate>Tue, 21 Oct 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[這是我的第一篇文章]]></description>
-            <content:encoded><![CDATA[這是我的第一篇文章]]></content:encoded>
+            <pubDate>Mon, 20 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[為什麼要建立個人網站？]]></description>
+            <content:encoded><![CDATA[為什麼要建立個人網站？]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[第二篇文章]]></title>
+            <title><![CDATA[跟孟吃火鍋]]></title>
             <link>https://tzuchun.com/blog/rain-post</link>
             <guid>https://tzuchun.com/blog/rain-post</guid>
             <pubDate>Wed, 22 Oct 2025 00:00:00 GMT</pubDate>
@@ -26,7 +26,7 @@
             <content:encoded><![CDATA[這是孟孟]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[測試排版]]></title>
+            <title><![CDATA[線性代數考試]]></title>
             <link>https://tzuchun.com/blog/test-post</link>
             <guid>https://tzuchun.com/blog/test-post</guid>
             <pubDate>Sat, 01 Nov 2025 00:00:00 GMT</pubDate>
@@ -40,18 +40,7 @@
             <pubDate>Tue, 28 Oct 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[讀書心得]]></description>
             <content:encoded><![CDATA[
-## Markdown heading
-
-Markdown text with [links](/docs/notes-knowledge/first.md)...]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[知識]]></title>
-            <link>https://tzuchun.com/docs/knowledge/</link>
-            <guid>https://tzuchun.com/docs/knowledge/</guid>
-            <pubDate>Sat, 25 Oct 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[讀書心得]]></description>
-            <content:encoded><![CDATA[
-## 這裡有一些知識...]]></content:encoded>
+待建構...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[面試技巧]]></title>
@@ -70,6 +59,15 @@ Markdown text with [links](/docs/notes-knowledge/first.md)...]]></content:encode
             <description><![CDATA[真正的專家和唬爛仔分別有幾個明顯的特徵...]]></description>
             <content:encoded><![CDATA[
 瞎忙還是專家？...]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[男女擇偶標準有趣知識]]></title>
+            <link>https://tzuchun.com/docs/knowledge/</link>
+            <guid>https://tzuchun.com/docs/knowledge/</guid>
+            <pubDate>Sat, 25 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[讀書心得]]></description>
+            <content:encoded><![CDATA[
+聽了 Huberman Lab 之後的整理...]]></content:encoded>
         </item>
     </channel>
 </rss>

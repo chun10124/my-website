@@ -9,7 +9,7 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[測試排版]]></title>
+            <title><![CDATA[線性代數考試]]></title>
             <link>https://tzuchun.com/blog/test-post</link>
             <guid>https://tzuchun.com/blog/test-post</guid>
             <pubDate>Sat, 01 Nov 2025 00:00:00 GMT</pubDate>
@@ -17,7 +17,7 @@
             <content:encoded><![CDATA[<p>今天考線性代數</p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[第二篇文章]]></title>
+            <title><![CDATA[跟孟吃火鍋]]></title>
             <link>https://tzuchun.com/blog/rain-post</link>
             <guid>https://tzuchun.com/blog/rain-post</guid>
             <pubDate>Wed, 22 Oct 2025 00:00:00 GMT</pubDate>
@@ -26,13 +26,12 @@
 <img decoding="async" loading="lazy" alt="我的部落格範例圖片" src="https://tzuchun.com/assets/images/rita-0c383ee1b435c7f6b76c5ffa57922f4a.jpeg" width="3024" height="4032" class="img_ev3q"></p>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[第一篇文章]]></title>
+            <title><![CDATA[為什麼要建立個人網站？]]></title>
             <link>https://tzuchun.com/blog/cool-post</link>
             <guid>https://tzuchun.com/blog/cool-post</guid>
-            <pubDate>Tue, 21 Oct 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[這是我的第一篇文章]]></description>
-            <content:encoded><![CDATA[<p>這是我的第一篇文章</p>
-<p>練習怎麼部署</p>]]></content:encoded>
+            <pubDate>Mon, 20 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[為什麼要建立個人網站？]]></description>
+            <content:encoded><![CDATA[<p>為什麼要建立個人網站？</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
