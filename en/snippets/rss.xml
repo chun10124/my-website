@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>TzuChun.Blog Blog</title>
+        <link>https://tzuchun.com/en/snippets</link>
+        <description>TzuChun.Blog Blog</description>
+        <lastBuildDate>Mon, 27 Oct 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[2025.10.27]]></title>
+            <link>https://tzuchun.com/en/snippets/russian-test</link>
+            <guid>https://tzuchun.com/en/snippets/russian-test</guid>
+            <pubDate>Mon, 27 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[俄文考卷竟然整張在考「作者名字記憶大考驗」，真的好糟...]]></description>
+            <content:encoded><![CDATA[<p>俄文考卷竟然整張在考「作者名字記憶大考驗」，真的好糟...</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[2025.10.24]]></title>
+            <link>https://tzuchun.com/en/snippets/first-thought</link>
+            <guid>https://tzuchun.com/en/snippets/first-thought</guid>
+            <pubDate>Fri, 24 Oct 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[他們應該很羨慕我吧]]></description>
+            <content:encoded><![CDATA[<p>他們應該很羨慕我吧</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
