@@ -4,31 +4,31 @@
         <title>TzuChun.Blog 全站 RSS Feed</title>
         <link>https://tzuchun.com</link>
         <description>整合最新的 Blog 貼文與有標記的 Docs 筆記。</description>
-        <lastBuildDate>Sat, 08 Nov 2025 12:41:36 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Nov 2025 13:27:34 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
         <copyright>© 2025 TzuChun</copyright>
         <item>
             <title><![CDATA[為什麼要建立個人網站？]]></title>
-            <link>https://tzuchun.com/blog/cool-post</link>
-            <guid>https://tzuchun.com/blog/cool-post</guid>
+            <link>https://tzuchun.com/en/blog/cool-post</link>
+            <guid>https://tzuchun.com/en/blog/cool-post</guid>
             <pubDate>Mon, 20 Oct 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[為什麼要建立個人網站？]]></description>
             <content:encoded><![CDATA[為什麼要建立個人網站？]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[跟孟吃火鍋]]></title>
-            <link>https://tzuchun.com/blog/rain-post</link>
-            <guid>https://tzuchun.com/blog/rain-post</guid>
+            <link>https://tzuchun.com/en/blog/rain-post</link>
+            <guid>https://tzuchun.com/en/blog/rain-post</guid>
             <pubDate>Wed, 22 Oct 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[這是孟孟]]></description>
             <content:encoded><![CDATA[這是孟孟]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[有價值的東西]]></title>
-            <link>https://tzuchun.com/blog/value-post</link>
-            <guid>https://tzuchun.com/blog/value-post</guid>
+            <link>https://tzuchun.com/en/blog/value-post</link>
+            <guid>https://tzuchun.com/en/blog/value-post</guid>
             <pubDate>Tue, 04 Nov 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[整理相片時想到的]]></description>
             <content:encoded><![CDATA[整理相片時想到的]]></content:encoded>
