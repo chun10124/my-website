@@ -2,18 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tzuchun.com/blog</id>
     <title>TzuChun.Blog Blog</title>
-    <updated>2025-11-01T00:00:00.000Z</updated>
+    <updated>2025-11-04T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tzuchun.com/blog"/>
     <subtitle>TzuChun.Blog Blog</subtitle>
     <icon>https://tzuchun.com/img/icon.logo.jpg</icon>
     <entry>
-        <title type="html"><![CDATA[線性代數考試]]></title>
-        <id>https://tzuchun.com/blog/test-post</id>
-        <link href="https://tzuchun.com/blog/test-post"/>
-        <updated>2025-11-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[今天考試]]></summary>
-        <content type="html"><![CDATA[<p>今天考線性代數</p>]]></content>
+        <title type="html"><![CDATA[有價值的東西]]></title>
+        <id>https://tzuchun.com/blog/value-post</id>
+        <link href="https://tzuchun.com/blog/value-post"/>
+        <updated>2025-11-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[整理相片時想到的]]></summary>
+        <content type="html"><![CDATA[<p>今天為了騰出一點儲存空間，需要刪除一些影片。</p>
+<p>這個流程我經歷過好幾次了，在一百個多特別大的檔案中來回翻閱，試圖找出一個當時只是不小心存到的影片，或不重要的檔案。</p>
+<p>在過程中我發現，有些檔案我<strong>從不考慮刪除它們</strong>，而它們大概有幾個特點。</p>
+<ul>
+<li class="">我家小狗的錄影</li>
+<li class="">家人的錄影、錄音</li>
+<li class="">某段時間的生活紀錄（特別是比較多年前的）</li>
+</ul>
+<p>而那些<strong>被刪除的</strong>呢？ 我選擇刪除了...</p>
+<ul>
+<li class="">演唱會錄起來發社群的影片</li>
+<li class="">一些風景美照</li>
+<li class="">工作需要而錄下的片段</li>
+</ul>
+<p><strong>被我刪除的</strong>檔案有一個共同性質，它們很大機率是「<strong>給別人看的</strong>」，例如發到社群或分享給朋友。但當時間拉遠，我根本不想要保存哪個當紅明星的 Live 影片，或某些很美的風景照。</p>
+<p>相反的，那些我<strong>從不考慮刪除的</strong>影片幾乎不曾跟誰分享過，因為我不必這麼做。它們收錄著我重要的某段生活、某個對話、或是某些人，而這些影片「<strong>是給我自己看的</strong>」，這樣就夠了。</p>
+<p>這樣思考下來，未來在滿足別人與滿足自己之間做選擇，蠻容易的吧？</p>
+<p>我對自己的選擇還是挺滿意的。</p>]]></content>
         <author>
             <name>TzuChun Chao</name>
         </author>
