@@ -4,13 +4,13 @@
         <title>TzuChun.Blog 全站 RSS Feed</title>
         <link>https://tzuchun.com</link>
         <description>整合最新的 Blog 貼文與有標記的 Docs 筆記。</description>
-        <lastBuildDate>Mon, 10 Nov 2025 14:27:57 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 10 Nov 2025 14:44:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
         <copyright>© 2025 TzuChun</copyright>
         <item>
-            <title><![CDATA[為什麼要建立個人網站？]]></title>
+            <title><![CDATA[一些架設網站的好處]]></title>
             <link>https://tzuchun.com/en/blog/cool-post</link>
             <guid>https://tzuchun.com/en/blog/cool-post</guid>
             <pubDate>Mon, 20 Oct 2025 00:00:00 GMT</pubDate>
@@ -30,16 +30,45 @@
             <link>https://tzuchun.com/en/blog/value-post</link>
             <guid>https://tzuchun.com/en/blog/value-post</guid>
             <pubDate>Tue, 04 Nov 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[整理相片時想到的]]></description>
-            <content:encoded><![CDATA[整理相片時想到的]]></content:encoded>
+            <description><![CDATA[整理相片時想到的...]]></description>
+            <content:encoded><![CDATA[整理相片時想到的...]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[刻意練習（上）]]></title>
             <link>https://tzuchun.com/docs/books-deliberately-practice-1/</link>
             <guid>https://tzuchun.com/docs/books-deliberately-practice-1/</guid>
             <pubDate>Thu, 30 Oct 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[用科學解釋那些超越常人的「超能力」]]></description>
-            <content:encoded><![CDATA[<p>用科學解釋那些超越常人的「超能力」</p>
+            <content:encoded><![CDATA[<p>你相信天份嗎？天才與常人的距離又有多遠？<br>也許這本書將讓你對所有「不可能達成的事」改觀。</p>
+<p>:::tip[本文資訊]</p>
+<p>本書約 14 萬字，閱讀耗時 8 小時又 30 分鐘 ;    </p>
+<p>::: </p>
+<h2>有所謂天份這種東西嗎？</h2>
+<p>世界上有沒有所謂的天份？</p>
+<p>有，是有的。不過這可能跟你想像的不太一樣，人們常常誤以為一些不是天份的東西為天份，然後將卓越的能力全歸功於它。我們可以從一個故事來一探究竟...</p>
+<p>在天寒地凍的加拿大，冰上曲棍球是一項及受歡迎的運動。而這些曲棍球選手中，表現較為優異的選手有極大部分都是在「每年年初」出生，甚至有 90% 以上是「每年上半年」出生。這代表什麼？難不成年初有神奇的魔力可以讓母親們生出曲棍球奇才？  </p>
+<p>顯然不是。作者發現這個現象的成因是，加拿大的曲棍球課大多是同一年出生的孩子一起上一堂課，所以課程裡面年紀最大的孩子與年紀最小的孩子有近一年的年齡差。<strong>在五歲之前，這一年的差距極大</strong>，不論是身高、力量、智力、穩定度都有差距。因此在課堂中，年紀大的孩子長得比較高、壯，也比較能聽懂教練說什麼，自然打得比較好。</p>
+<p>而這些年紀較大的孩子因為一開始就打得比較好，因此更容易得到家長稱讚，教練也會特別花心思訓練他們。於是他們就更有動力繼續打球，然後就繼續進步，這個循環將持續下去。最後這些一到六月出生的孩子真的持續進步直到成為職業選手，並不是因為他們有天份，而是<strong>受到旁人和環境的一連貫影響所致</strong>。</p>
+<p>這種被多數人誤以為是天份但其實並非如此的例子層出不窮。許多被視為天才的人並不是真的與生俱來就擅長某種能力，<strong>而是受到環境的影響、或是早已在不知覺的狀況下培養出相關的所需技術。</strong></p>
+<h2>就算有所謂的天份，它的功用是什麼？</h2>
+<p>即使我們找到了真正的「天份」，它也大概只有這個功用———
+讓你<strong>起步比較輕鬆，以致你有興趣繼續練習下去。</strong></p>
+<p>如果可以在剛起步時做得比同儕好（輕鬆），自然會因成就感而更有動力持續學習下去。有幾個主要的原因：</p>
+<ul>
+<li>旁人的肯定和稱讚扮演極為關鍵的角色，這些鼓勵讓你感覺付出是值得的，</li>
+<li>如果你一開始就做得很不錯，你和你的家人都會更重視這項能力，所以你更有機會去尋找老師學習、更有機會決定投注大量時間練習，當然就更有機會在此領域發展出卓越能力。</li>
+</ul>
+<p>這就是天份能幫你做的，它讓你<strong>起步時阻力很小，並且更有機會走上正確的道路</strong>。然而要成為專家，走上這條路只是開始而已，接下來的練習才是成就專家的關鍵。在能力達到一定程度後，天份所造成的影響就沒有這麼大了，後續的一切進步都必須靠刻意練習。目前沒有任何案例證明可以僅靠「天份」成為頂尖專家。</p>
+<p>:::info[原子習慣]
+記得<a href="/docs/notes-books/%E5%8E%9F%E5%AD%90%E7%BF%92%E6%85%A3.md">原子習慣</a>中提到的「建立身份認同」嗎？受到旁人稱讚而持續做下去就是一個活生生的例子。假如旁人都說你超有數學天份，你慢慢也會<strong>相信</strong>自己就是數學好的人和喜歡數學的人，所以你更有機會有源源不絕的動力算數學。最後你的數學能力卓越跟你的天份其實沒有太大關係，而是你確實花了很多時間在學習數學。
+:::</p>
+<h2>天份的另一個功能</h2>
+<p>天份的另一個功能則是作為 <strong>「幫助你跨越練習某個技能的門檻」</strong>。</p>
+<p>這一點指的其實是智商，作者對很多科學家還有醫生做了能力檢測和智力測驗，並未發現智力較高的醫生或科學家有較傑出的成就。真相是，這些科學家與醫生們在領域中「付出的時間」還有「練習的品質」才是最後影響他們能力的關鍵。</p>
+<p>不過作者也確實發現這兩組人的平均智力都高於常人（120 以上），這是為什麼？作者認為是在培養技能的前期，必須先有<strong>跨越門檻的能力</strong>，而這個能力常常是所謂的智力。例如要成為科學家的人大多必須精通統計學、數學、英文、甚至物理學等。而能在這些領域精通，自然必須有一定智力。這並不代表智力只跟常人一樣沒辦法成為科學家，不過你想像一個從小學術表現都普通的人，他有多大的機率立志成為科學家？他身旁的人會鼓勵他嗎？所以這大大減少了他成為科學家的機率，但絕對不代表智力不到 120 沒辦法當科學家。</p>
+<p>所以，天份可以讓你在初期學得比別人輕鬆，以及有辦法跨越門檻，但最終能力取決於練習時數和品質。研究結果是，那些能力卓越的專家的總練習時數比同儕（能力普通的同行）<strong>多出數千至數萬小時</strong>。</p>
+<h2>有沒有靠天份決定的技能？</h2>
+<p>作者認為唯一受先天條件限制的能力是運動，因為任何<strong>運動總有最適合的身高、體型</strong>。如果先天條件不足，很難在運動項目達到頂尖。例如游泳的頂尖選手將沒辦法透過訓練成為馬拉松頂尖選手，身高一米八的人也幾乎不可能透過訓練突破跳高世界紀錄。</p>
+<p><a href="/docs/notes-books/%E5%88%BB%E6%84%8F%E7%B7%B4%E7%BF%92%EF%BC%88%E4%B8%8B%EF%BC%89.md">刻意練習（下）</a>將會接續這裡的討論，並開始真正了解「刻意練習」，有興趣的話去看看吧。</p>
 ]]></content:encoded>
         </item>
         <item>
@@ -47,8 +76,38 @@
             <link>https://tzuchun.com/docs/books-deliberately-practice-2/</link>
             <guid>https://tzuchun.com/docs/books-deliberately-practice-2/</guid>
             <pubDate>Mon, 03 Nov 2025 16:00:00 GMT</pubDate>
-            <description><![CDATA[學習如何實踐「刻意練習」]]></description>
-            <content:encoded><![CDATA[<p>學習如何實踐「刻意練習」</p>
+            <content:encoded><![CDATA[<p>接著我們將講到<strong>本書精髓 - 刻意練習</strong><br>如果還沒看過<a href="/docs/notes-books/%E5%88%BB%E6%84%8F%E7%B7%B4%E7%BF%92%EF%BC%88%E4%B8%8A%EF%BC%89.md">刻意練習（上）</a>很建議先去看那篇文章喔。</p>
+<h2>刻意練習能改變生理狀態</h2>
+<p>在這個段落，作者舉了大量實驗和故事證明人體的<strong>適應力極強</strong>，基本上是用進廢退的概念。舉例來說，許多科學家、音樂家、醫生的大腦的某個關鍵區域都比常人還更活躍或是更大，這就是大腦隨著不斷練習漸漸進化的證明。</p>
+<p>透過這些例子，作者希望讀者能相信，那些<strong>看似不可能的能力</strong>（例如記住紐約市所有街道名稱），其實<strong>不是做不到，而是目前你無法做到</strong>，但你絕對可以透過刻意練習來增強相關的能力，甚至促使生理改變（科學家的大腦、運動員的肌肉…）。</p>
+<h2>經驗不會讓你越做越好</h2>
+<p>這是一個顛覆傳統思維的想法 - <strong>經驗不會讓你越做越好</strong>。</p>
+<p>作者舉了許多例子或實驗證明這個觀點。例如...</p>
+<ul>
+<li>開車二十年的駕駛未必比開車兩年的駕駛技術更佳</li>
+<li>執業二十年的醫生的診斷能力甚至比執業兩年的醫生差</li>
+</ul>
+<p>書中還有無數個例子，建議大家自己去看，會更有說服力。但結論為 - 單純埋頭猛幹是不會進步的，你得<strong>有意識的在每一次執行中尋找可以進步的地方並改善</strong>，這樣才會進步，這也就是所謂的刻意練習。例如你想要鋼琴彈得好，每天瘋狂彈是不會進步的（或是進步極慢），你得找出總是彈不好的那個小節花心思練習才行。練習的意識和品質才是重點。</p>
+<h2>心智表徵是什麼</h2>
+<p>心智表徵很抽象，非常難以描述，我會盡力解釋我所理解的。</p>
+<p><strong>心智表徵的品質即為常人與專家的主要差異。</strong></p>
+<p>心智表徵大概就是清楚「知道前一步是什麼、現在正在做什麼、以及下一步可能發生什麼」，並且<strong>以模組的概念記憶資訊</strong>。例如職業棋手不會分開記憶每個旗子的位置，而是將某一區域的旗子「當下的狀態記下來」，這些旗子都是相互關聯並且具有意義的。</p>
+<p>心智表徵佳的人處理資訊是<strong>系統化</strong>的，所有資料相互有意義而且可以來往，因此他們可以把訊息登錄進長期記憶。並且專家可以分類不同的資訊並給出不同的處理方式。當系統已經烙印在腦海中，專家的思考過程將自動化，所以有時他們也無法解釋為什麼做出當下的判斷，只能解釋「就是有一種直覺」，但這些直覺往往非常精準。</p>
+<h2>刻意練習法</h2>
+<p>最後我們來聊聊「怎麼刻意練習」</p>
+<p>當我們理解刻意練習的概念後，就能知道為什麼天才們可以擁有遠超常人的能力。 
+並不是他們受上天眷顧或是他們有魔法之類的，只是因為他們懂訓練的方法，這是很科學的。</p>
+<p>刻意練習大概分成三個部分</p>
+<ul>
+<li><p>首先是絕對的專注，作者認為專注度不夠的練習是沒有效用的。你必須全心全意付出在當下，專心思考現在正在執行的動作，「<strong>當你開始分心或是覺得輕鬆好玩時，大概就代表沒有做對</strong>」。</p>
+</li>
+<li><p>每次練習都要超出原本能力一點點，因為假如一直待在舒適圈裡練習是沒用的，但超出能力太多的訓練也會導致練習失效。剛好超出舒適圈一點點就是練習的最佳範圍，同時也是最容易達到「心流」的狀況。</p>
+</li>
+<li><p>再來是要有回饋機制，假如你想練習籃球罰球，你不可能投球之後不看自己有沒有投進吧，這個概念簡單易懂，不過<strong>只要換一個領域人們就常常忘記這個觀念</strong>。例如猛彈鋼琴不注意哪裡彈得不對、猛寫文章可是不知道哪裡寫得好哪裡不好、放射師對X光片進行預測卻不知道病人後續的狀況等等。</p>
+<p>  當你沒有回饋機制，你無法改善自己的錯誤，練習將徒勞無功。相反的，你應該利用<strong>爾偶跳出舒適圈遠一點，找出最容易出錯的部分</strong>，並有意識地加強這個部分。在改善時，「念出來」這個方法極為有用，因為念出來可以強迫你的大腦注意到當下執行的動作。例如每次鋼琴彈到一個地方手都忘記抬起來，你就規定自己彈到這邊就要大聲唸出「手抬高」，這是一個很棒的刻意練習。</p>
+</li>
+</ul>
+<p>總結以上三點，刻意練習就是清楚知道「<strong>要練什麼</strong>」然後練它，<br>還有知道「<strong>什麼是弱點</strong>」然後練它。</p>
 ]]></content:encoded>
         </item>
         <item>
@@ -56,8 +115,7 @@
             <link>https://tzuchun.com/docs/books-AtomicHabits/</link>
             <guid>https://tzuchun.com/docs/books-AtomicHabits/</guid>
             <pubDate>Tue, 28 Oct 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[讀書心得]]></description>
-            <content:encoded><![CDATA[<p>讀書心得</p>
+            <content:encoded><![CDATA[<p>待建構</p>
 ]]></content:encoded>
         </item>
         <item>
@@ -65,8 +123,7 @@
             <link>https://tzuchun.com/docs/knowledge-interview/</link>
             <guid>https://tzuchun.com/docs/knowledge-interview/</guid>
             <pubDate>Sat, 01 Nov 2025 16:00:00 GMT</pubDate>
-            <description><![CDATA[面試了 60 個人後，我的一些想法...]]></description>
-            <content:encoded><![CDATA[<p>面試了 60 個人後，我的一些想法...</p>
+            <content:encoded><![CDATA[<h2>面試別再這樣啦！</h2>
 ]]></content:encoded>
         </item>
         <item>
@@ -74,8 +131,7 @@
             <link>https://tzuchun.com/docs/real-master-post/</link>
             <guid>https://tzuchun.com/docs/real-master-post/</guid>
             <pubDate>Sun, 02 Nov 2025 16:00:00 GMT</pubDate>
-            <description><![CDATA[真正的專家和唬爛仔分別有幾個明顯的特徵...]]></description>
-            <content:encoded><![CDATA[<p>真正的專家和唬爛仔分別有幾個明顯的特徵...</p>
+            <content:encoded><![CDATA[<p>瞎忙還是專家？</p>
 ]]></content:encoded>
         </item>
         <item>
@@ -83,8 +139,7 @@
             <link>https://tzuchun.com/docs/knowledge/</link>
             <guid>https://tzuchun.com/docs/knowledge/</guid>
             <pubDate>Sat, 25 Oct 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[讀書心得]]></description>
-            <content:encoded><![CDATA[<p>讀書心得</p>
+            <content:encoded><![CDATA[<p>聽了 Huberman Lab 之後的整理</p>
 ]]></content:encoded>
         </item>
     </channel>
