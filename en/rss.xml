@@ -4,7 +4,7 @@
         <title>TzuChun.Blog 全站 RSS Feed</title>
         <link>https://tzuchun.com</link>
         <description>整合最新的 Blog 貼文與有標記的 Docs 筆記。</description>
-        <lastBuildDate>Sat, 08 Nov 2025 13:27:34 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 10 Nov 2025 14:27:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
@@ -38,38 +38,18 @@
             <link>https://tzuchun.com/docs/books-deliberately-practice-1/</link>
             <guid>https://tzuchun.com/docs/books-deliberately-practice-1/</guid>
             <pubDate>Thu, 30 Oct 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[讀書心得]]></description>
-            <content:encoded><![CDATA[
-你相信天份嗎？天才與常人的距離又有多遠？  
-也許這本書將讓你對所有「不可能達成的事」改觀。
-
-:::tip[本文資訊]
-
-本書約 14 萬字，閱讀耗時 8 小時又 30 分鐘 ;    
-
-::: 
-
-## 有所謂天份這種東西嗎？
-世界上有沒有所謂的天份？
-
-有，是有的。不過這可能跟你想像的不太一樣，人們常常誤以為一些不是天份的東西為天份，然後將卓越的能力全歸功於它。我們可以從一個故事來一探究竟...
-
-在天寒地凍的加拿大，冰上曲棍球是一項及受歡迎的運動。而這些曲棍球選手中，表現較為優異的選手有極大部分都是在「每年年初」出生，甚至有 90% 以上是「每年上半年」出生。這代表什麼？難不成年初...]]></content:encoded>
+            <description><![CDATA[用科學解釋那些超越常人的「超能力」]]></description>
+            <content:encoded><![CDATA[<p>用科學解釋那些超越常人的「超能力」</p>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[刻意練習（下）]]></title>
             <link>https://tzuchun.com/docs/books-deliberately-practice-2/</link>
             <guid>https://tzuchun.com/docs/books-deliberately-practice-2/</guid>
             <pubDate>Mon, 03 Nov 2025 16:00:00 GMT</pubDate>
-            <description><![CDATA[刻意練習重點整理-第二部分]]></description>
-            <content:encoded><![CDATA[
-接著我們將講到**本書精髓 - 刻意練習**  
-如果還沒看過[刻意練習（上）](/docs/notes-books/刻意練習（上）.md)很建議先去看那篇文章喔。
-
-## 刻意練習能改變生理狀態
-在這個段落，作者舉了大量實驗和故事證明人體的**適應力極強**，基本上是用進廢退的概念。舉例來說，許多科學家、音樂家、醫生的大腦的某個關鍵區域都比常人還更活躍或是更大，這就是大腦隨著不斷練習漸漸進化的證明。
-
-透過這些例子，作者希望讀者能相信，那些**看似不可能的能力**（例如記住紐約市所有街道名稱），其實**不是做不到，而是目前你無法做到**，但你絕對可以透過刻意練習來增強相關的能力，甚至促使生...]]></content:encoded>
+            <description><![CDATA[學習如何實踐「刻意練習」]]></description>
+            <content:encoded><![CDATA[<p>學習如何實踐「刻意練習」</p>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[原子習慣]]></title>
@@ -77,8 +57,8 @@
             <guid>https://tzuchun.com/docs/books-AtomicHabits/</guid>
             <pubDate>Tue, 28 Oct 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[讀書心得]]></description>
-            <content:encoded><![CDATA[
-待建構...]]></content:encoded>
+            <content:encoded><![CDATA[<p>讀書心得</p>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[面試技巧]]></title>
@@ -86,8 +66,8 @@
             <guid>https://tzuchun.com/docs/knowledge-interview/</guid>
             <pubDate>Sat, 01 Nov 2025 16:00:00 GMT</pubDate>
             <description><![CDATA[面試了 60 個人後，我的一些想法...]]></description>
-            <content:encoded><![CDATA[
-## 面試別再這樣啦！...]]></content:encoded>
+            <content:encoded><![CDATA[<p>面試了 60 個人後，我的一些想法...</p>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[分辨真正的專家]]></title>
@@ -95,8 +75,8 @@
             <guid>https://tzuchun.com/docs/real-master-post/</guid>
             <pubDate>Sun, 02 Nov 2025 16:00:00 GMT</pubDate>
             <description><![CDATA[真正的專家和唬爛仔分別有幾個明顯的特徵...]]></description>
-            <content:encoded><![CDATA[
-瞎忙還是專家？...]]></content:encoded>
+            <content:encoded><![CDATA[<p>真正的專家和唬爛仔分別有幾個明顯的特徵...</p>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[男女擇偶標準有趣知識]]></title>
@@ -104,8 +84,8 @@
             <guid>https://tzuchun.com/docs/knowledge/</guid>
             <pubDate>Sat, 25 Oct 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[讀書心得]]></description>
-            <content:encoded><![CDATA[
-聽了 Huberman Lab 之後的整理...]]></content:encoded>
+            <content:encoded><![CDATA[<p>讀書心得</p>
+]]></content:encoded>
         </item>
     </channel>
 </rss>
