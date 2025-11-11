@@ -4,7 +4,7 @@
         <title>TzuChun.Blog 全站 RSS Feed</title>
         <link>https://tzuchun.com</link>
         <description>undefined</description>
-        <lastBuildDate>Tue, 11 Nov 2025 13:24:41 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Nov 2025 13:44:25 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
@@ -21,16 +21,16 @@
             <title><![CDATA[跟孟吃火鍋]]></title>
             <link>https://tzuchun.com/blog/rain-post</link>
             <guid>https://tzuchun.com/blog/rain-post</guid>
-            <pubDate>Tue, 11 Nov 2025 13:24:41 GMT</pubDate>
+            <pubDate>Tue, 11 Nov 2025 13:44:25 GMT</pubDate>
             <content:encoded><![CDATA[<p>這是孟孟
-<img src="https://tzuchun.com/blogimg/rita.jpeg" alt="我的部落格範例圖片"></p>
+<img src="/blogimg/rita.jpeg" alt="我的部落格範例圖片"></p>
 ]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[投入大螢幕的懷抱]]></title>
             <link>https://tzuchun.com/blog/big-screen</link>
             <guid>https://tzuchun.com/blog/big-screen</guid>
-            <pubDate>Tue, 11 Nov 2025 13:24:41 GMT</pubDate>
+            <pubDate>Tue, 11 Nov 2025 13:44:25 GMT</pubDate>
             <content:encoded><![CDATA[<p>今年決定送女友一個外接螢幕當生日禮物，應該是一個相當實用的禮物，她也蠻喜歡的。不過<strong>使用外接螢幕的優點實在太多了</strong>，我不得不在這邊把它寫下來！</p>
 <p>先聊聊用筆電螢幕的問題。</p>
 <p>不外乎就是螢幕太小了，所以內容無法放大，並且因為只有一個螢幕，當你要開啟多個視窗時，得把原本就不大的螢幕切割成更小的格子，或是頻繁的切換視窗。</p>
@@ -44,7 +44,7 @@
 <p>而這些問題，外接大螢幕剛好都能解決。</p>
 <p>你可以把視窗放在不同的螢幕上，每一個都<strong>能以舒服的大小，清晰地顯示出來</strong>。當你想要參考多個內容時，也不再需要切來切去，只要稍微抬個頭就可以將所有資訊一覽無遺。這樣流暢的工作流程可以<strong>最大化工作效率，並最小化腦力耗損還有過程中的焦躁感</strong>。</p>
 <p>上述的好處已經被研究證實了，從 Dell 的研究報告中可見，只要用筆電搭配一個 25-32 吋的外接螢幕，<strong>就可以讓生產力提升 30% 以上</strong>，如果你用 40 吋以上的螢幕，甚至可以提升 43% 的生產力。</p>
-<p><img src="https://tzuchun.com/blogimg/screentime.png" alt="Dell資料">
+<p><img src="/blogimg/screentime.png" alt="Dell資料">
 <small>圖 : 不同大小外接螢幕所能提升的生產力</small></p>
 <p>總之，我覺得這是一個很棒的投資。不用三千塊就可以買到一片帶有護眼功能的螢幕，還能讓以後工作效率更高、大腦更輕鬆。</p>
 <p>有夠划算。</p>
@@ -54,7 +54,7 @@
             <title><![CDATA[有價值的東西]]></title>
             <link>https://tzuchun.com/blog/value-post</link>
             <guid>https://tzuchun.com/blog/value-post</guid>
-            <pubDate>Tue, 11 Nov 2025 13:24:41 GMT</pubDate>
+            <pubDate>Tue, 11 Nov 2025 13:44:25 GMT</pubDate>
             <content:encoded><![CDATA[<p>今天為了騰出一點儲存空間，需要刪除一些影片。  </p>
 <p>這個流程我經歷過好幾次了，在一百個多特別大的檔案中來回翻閱，試圖找出一個當時只是不小心存到的影片，或不重要的檔案。</p>
 <p>在過程中我發現，有些檔案我<strong>從不考慮刪除它們</strong>，而它們大概有幾個特點。</p>
