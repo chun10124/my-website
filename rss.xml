@@ -4,7 +4,7 @@
         <title>TzuChun.Blog 全站 RSS Feed</title>
         <link>https://tzuchun.com</link>
         <description>整合最新的 Blog 貼文與有標記的 Docs 筆記。</description>
-        <lastBuildDate>Tue, 11 Nov 2025 11:37:46 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Nov 2025 11:46:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
@@ -30,8 +30,8 @@
             <link>https://tzuchun.com/en/blog/big-screen</link>
             <guid>https://tzuchun.com/en/blog/big-screen</guid>
             <pubDate>Tue, 11 Nov 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[使用大螢幕的優點說不完]]></description>
-            <content:encoded><![CDATA[使用大螢幕的優點說不完]]></content:encoded>
+            <description><![CDATA[使用大螢幕的優點簡直說不完]]></description>
+            <content:encoded><![CDATA[使用大螢幕的優點簡直說不完]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[有價值的東西]]></title>
