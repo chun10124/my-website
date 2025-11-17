@@ -8,12 +8,15 @@
     <subtitle>TzuChun.Blog Blog</subtitle>
     <icon>https://tzuchun.com/img/icon.logo.jpg</icon>
     <entry>
-        <title type="html"><![CDATA[rss-test]]></title>
-        <id>https://tzuchun.com/blog/2025/11/17/rss-test</id>
-        <link href="https://tzuchun.com/blog/2025/11/17/rss-test"/>
+        <title type="html"><![CDATA[測試rss]]></title>
+        <id>https://tzuchun.com/blog/test-rss</id>
+        <link href="https://tzuchun.com/blog/test-rss"/>
         <updated>2025-11-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[test rss]]></summary>
-        <content type="html"><![CDATA[<p>test rss</p>]]></content>
+        <summary type="html"><![CDATA[測試中]]></summary>
+        <content type="html"><![CDATA[<p>測試測試</p>]]></content>
+        <author>
+            <name>TzuChun Chao</name>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[把事情搞定]]></title>
