@@ -4,10 +4,18 @@
         <title>TzuChun.Blog Blog</title>
         <link>https://tzuchun.com/en/blog</link>
         <description>TzuChun.Blog Blog</description>
-        <lastBuildDate>Thu, 13 Nov 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Nov 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[最好不要跟大家一樣]]></title>
+            <link>https://tzuchun.com/en/blog/be-different</link>
+            <guid>https://tzuchun.com/en/blog/be-different</guid>
+            <pubDate>Tue, 18 Nov 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[以前寫作文的時候...]]></description>
+            <content:encoded><![CDATA[<p>待建構</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[把事情搞定]]></title>
             <link>https://tzuchun.com/en/blog/get-things-done</link>

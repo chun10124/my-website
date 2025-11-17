@@ -2,11 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tzuchun.com/blog</id>
     <title>TzuChun.Blog Blog</title>
-    <updated>2025-11-13T00:00:00.000Z</updated>
+    <updated>2025-11-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tzuchun.com/blog"/>
     <subtitle>TzuChun.Blog Blog</subtitle>
     <icon>https://tzuchun.com/img/icon.logo.jpg</icon>
+    <entry>
+        <title type="html"><![CDATA[最好不要跟大家一樣]]></title>
+        <id>https://tzuchun.com/blog/be-different</id>
+        <link href="https://tzuchun.com/blog/be-different"/>
+        <updated>2025-11-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[以前寫作文的時候...]]></summary>
+        <content type="html"><![CDATA[<p>待建構</p>]]></content>
+        <author>
+            <name>TzuChun Chao</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[把事情搞定]]></title>
         <id>https://tzuchun.com/blog/get-things-done</id>

@@ -4,10 +4,20 @@
         <title>TzuChun.Blog Blog</title>
         <link>https://tzuchun.com/en/snippets</link>
         <description>TzuChun.Blog Blog</description>
-        <lastBuildDate>Mon, 27 Oct 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 Nov 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[2025.11.18]]></title>
+            <link>https://tzuchun.com/en/snippets/dont-want-grow-up</link>
+            <guid>https://tzuchun.com/en/snippets/dont-want-grow-up</guid>
+            <pubDate>Tue, 18 Nov 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[為什麼很多文章或歌詞都會有「長大很痛苦」、「不想當大人」的概念呀？]]></description>
+            <content:encoded><![CDATA[<p>為什麼很多文章或歌詞都會有「長大很痛苦」、「不想當大人」的概念呀？
+我覺得變成大人是一個有趣的過程，就像在電動遊戲中不斷前往下一個章節耶。</p>
+<p>應該沒他們說的那麼糟啦...吧？</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[2025.10.27]]></title>
             <link>https://tzuchun.com/en/snippets/russian-test</link>
