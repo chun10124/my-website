@@ -4,7 +4,7 @@
         <title>TzuChun.Blog 全站 RSS Feed</title>
         <link>https://tzuchun.com</link>
         <description>undefined</description>
-        <lastBuildDate>Tue, 25 Nov 2025 15:47:41 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 27 Nov 2025 15:23:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
@@ -17,11 +17,11 @@
             <content:encoded><![CDATA[<p>作為一個大學生，想當然<strong>幾乎我身旁所有人都在用 Facebook, Instagram, Threads</strong> 等主流社群媒體，這讓架個人網站、寫部落格顯得有點「非主流」，甚至不知道在做什麼，但為什麽我要這麼做？</p>
 <p>簡單來說，有三個原因。</p>
 <h3>一、受到 Wiwi 啟發</h3>
-<p>不知道是不是我記錯了，但我好像曾經在某集 <a href="https://nicelemon.libsyn.com">好檸檬Podcast</a> 中聽過 Wiwi 說：「拜託，我國中的時候我們每個班就都有班帳了...」，這句話實在讓我意識到自己需要多進步了。</p>
+<p>不知道是不是我記錯了，但我好像曾經在某集 <a href="https://nicelemon.libsyn.com">好檸檬Podcast</a> 中聽過 Wiwi 說：「拜託，我國中的時候我們每個班就都有自己的部落格網站了...」，這句話實在讓我意識到自己需要多進步了。</p>
 <pre><code>時代不斷更迭，在 2025 年的今天，資訊取得已相當容易、甚至還有 AI 幫忙打程式，自己架一個網站不應該是難事。先不談還要不要使用主流社群媒體，但我希望自己**至少擁有幾個主流社群媒體以外的「選擇」，而個人網站正好滿足了這個需求**。
 </code></pre>
 <h3>二、我的文筆大幅退步</h3>
-<p>過幾一兩年習慣使用 ChatGPT 生成各種文字後，當失去 AI 的輔助，我發現自己竟然寫不出滿意的文章，或是獨立寫作所需的時間比以往還要長了非常多。</p>
+<p>過去一兩年習慣使用 ChatGPT 生成各種文字後，當失去 AI 的輔助，我發現自己竟然寫不出滿意的文章，或是獨立寫作所需的時間比以往還要長了非常多。</p>
 <p>這樣的狀況真的有嚇到我，因為我非常相信寫作是思考的展現，當寫作出了問題，我的思考肯定也出問題了。引用一句科學家 Leslie Lamport 所說的「<strong>不寫作的思考不是思考，只是自以為有在思考</strong>」，而我確定自己不想失去思考的能力，所以我必須開始重新練習寫作了。</p>
 <p>於是我就開始寫部落格、並且很有意識的控制自己使用 AI 寫作。</p>
 <h3>三、減少使用社群軟體</h3>
