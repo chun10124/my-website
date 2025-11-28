@@ -4,17 +4,23 @@
         <title>TzuChun.Blog 全站 RSS Feed</title>
         <link>https://tzuchun.com</link>
         <description>undefined</description>
-        <lastBuildDate>Thu, 27 Nov 2025 20:30:20 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Nov 2025 13:33:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
         <copyright>© 2025 TzuChun</copyright>
         <item>
-            <title><![CDATA[架網站的三個原因]]></title>
+            <title><![CDATA[穿越時光的方法]]></title>
+            <link>https://tzuchun.com/blog/music-time-travel</link>
+            <guid>https://tzuchun.com/blog/music-time-travel</guid>
+            <pubDate>Fri, 28 Nov 2025 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[架個人網站的三個原因]]></title>
             <link>https://tzuchun.com/blog/benifits-of-website</link>
             <guid>https://tzuchun.com/blog/benifits-of-website</guid>
             <pubDate>Tue, 25 Nov 2025 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>作為一個大學生，想當然<strong>幾乎我身旁所有人都在用 Facebook, Instagram, Threads</strong> 等主流社群媒體，這讓架個人網站、寫部落格顯得有點「非主流」，甚至不知道在做什麼，但為什麽我要這麼做？</p>
+            <content:encoded><![CDATA[<p>作為一個大學生，想當然我身旁<strong>幾乎所有人都在用 Facebook, Instagram, Threads</strong> 等主流社群媒體，這讓架個人網站、寫部落格顯得有點「非主流」，甚至不知道在做什麼，但為什麽我要這麼做？</p>
 <p>簡單來說，有三個原因。</p>
 <h3>一、受到 Wiwi 啟發</h3>
 <p>不知道是不是我記錯了，但我好像曾經在某集 <a href="https://nicelemon.libsyn.com">好檸檬Podcast</a> 中聽過 Wiwi 說：「拜託，我國中的時候我們每個班就都有自己的部落格網站了...」，這句話實在讓我意識到自己需要多進步了。</p>

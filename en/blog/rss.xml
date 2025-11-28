@@ -4,17 +4,24 @@
         <title>TzuChun.Blog Blog</title>
         <link>https://tzuchun.com/en/blog</link>
         <description>TzuChun.Blog Blog</description>
-        <lastBuildDate>Tue, 25 Nov 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Nov 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[架網站的三個原因]]></title>
+            <title><![CDATA[穿越時光的方法]]></title>
+            <link>https://tzuchun.com/en/blog/music-time-travel</link>
+            <guid>https://tzuchun.com/en/blog/music-time-travel</guid>
+            <pubDate>Fri, 28 Nov 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[有時候，一段久沒聽到的旋律就足以讓人穿越時空]]></description>
+        </item>
+        <item>
+            <title><![CDATA[架個人網站的三個原因]]></title>
             <link>https://tzuchun.com/en/blog/benifits-of-website</link>
             <guid>https://tzuchun.com/en/blog/benifits-of-website</guid>
             <pubDate>Tue, 25 Nov 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[作為一個大學生，想當然幾乎我身旁所有人都在用 Facebook, Instagram, Threads 等主流社群媒體，這讓架個人網站、寫部落格顯得有點「非主流」，甚至不知道在做什麼，但為什麽我要這麼做？]]></description>
-            <content:encoded><![CDATA[<p>作為一個大學生，想當然<strong>幾乎我身旁所有人都在用 Facebook, Instagram, Threads</strong> 等主流社群媒體，這讓架個人網站、寫部落格顯得有點「非主流」，甚至不知道在做什麼，但為什麽我要這麼做？</p>
+            <description><![CDATA[談談我為什麼架網站寫部落格]]></description>
+            <content:encoded><![CDATA[<p>作為一個大學生，想當然我身旁<strong>幾乎所有人都在用 Facebook, Instagram, Threads</strong> 等主流社群媒體，這讓架個人網站、寫部落格顯得有點「非主流」，甚至不知道在做什麼，但為什麽我要這麼做？</p>
 <p>簡單來說，有三個原因。</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="一受到-wiwi-啟發">一、受到 Wiwi 啟發<a href="https://tzuchun.com/en/blog/benifits-of-website#%E4%B8%80%E5%8F%97%E5%88%B0-wiwi-%E5%95%9F%E7%99%BC" class="hash-link" aria-label="Direct link to 一、受到 Wiwi 啟發" title="Direct link to 一、受到 Wiwi 啟發" translate="no">​</a></h3>
 <p>不知道是不是我記錯了，但我好像曾經在某集 <a href="https://nicelemon.libsyn.com/" target="_blank" rel="noopener noreferrer" class="">好檸檬Podcast</a> 中聽過 Wiwi 說：「拜託，我國中的時候我們每個班就都有自己的部落格網站了...」，這句話實在讓我意識到自己需要多進步了。</p>

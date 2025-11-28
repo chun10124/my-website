@@ -2,18 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tzuchun.com/en/blog</id>
     <title>TzuChun.Blog Blog</title>
-    <updated>2025-11-25T00:00:00.000Z</updated>
+    <updated>2025-11-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tzuchun.com/en/blog"/>
     <subtitle>TzuChun.Blog Blog</subtitle>
     <icon>https://tzuchun.com/en/img/icon.logo.jpg</icon>
     <entry>
-        <title type="html"><![CDATA[架網站的三個原因]]></title>
+        <title type="html"><![CDATA[穿越時光的方法]]></title>
+        <id>https://tzuchun.com/en/blog/music-time-travel</id>
+        <link href="https://tzuchun.com/en/blog/music-time-travel"/>
+        <updated>2025-11-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[有時候，一段久沒聽到的旋律就足以讓人穿越時空]]></summary>
+        <author>
+            <name>TzuChun Chao</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[架個人網站的三個原因]]></title>
         <id>https://tzuchun.com/en/blog/benifits-of-website</id>
         <link href="https://tzuchun.com/en/blog/benifits-of-website"/>
         <updated>2025-11-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[作為一個大學生，想當然幾乎我身旁所有人都在用 Facebook, Instagram, Threads 等主流社群媒體，這讓架個人網站、寫部落格顯得有點「非主流」，甚至不知道在做什麼，但為什麽我要這麼做？]]></summary>
-        <content type="html"><![CDATA[<p>作為一個大學生，想當然<strong>幾乎我身旁所有人都在用 Facebook, Instagram, Threads</strong> 等主流社群媒體，這讓架個人網站、寫部落格顯得有點「非主流」，甚至不知道在做什麼，但為什麽我要這麼做？</p>
+        <summary type="html"><![CDATA[談談我為什麼架網站寫部落格]]></summary>
+        <content type="html"><![CDATA[<p>作為一個大學生，想當然我身旁<strong>幾乎所有人都在用 Facebook, Instagram, Threads</strong> 等主流社群媒體，這讓架個人網站、寫部落格顯得有點「非主流」，甚至不知道在做什麼，但為什麽我要這麼做？</p>
 <p>簡單來說，有三個原因。</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="一受到-wiwi-啟發">一、受到 Wiwi 啟發<a href="https://tzuchun.com/en/blog/benifits-of-website#%E4%B8%80%E5%8F%97%E5%88%B0-wiwi-%E5%95%9F%E7%99%BC" class="hash-link" aria-label="Direct link to 一、受到 Wiwi 啟發" title="Direct link to 一、受到 Wiwi 啟發" translate="no">​</a></h3>
 <p>不知道是不是我記錯了，但我好像曾經在某集 <a href="https://nicelemon.libsyn.com/" target="_blank" rel="noopener noreferrer" class="">好檸檬Podcast</a> 中聽過 Wiwi 說：「拜託，我國中的時候我們每個班就都有自己的部落格網站了...」，這句話實在讓我意識到自己需要多進步了。</p>
