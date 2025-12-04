@@ -10,8 +10,8 @@
 
 
 <link rel="alternate" type="application/rss+xml" href="/en/snippets/rss.xml" title="TzuChun.Blog RSS Feed">
-<link rel="alternate" type="application/atom+xml" href="/en/snippets/atom.xml" title="TzuChun.Blog Atom Feed"><link rel="stylesheet" href="/en/assets/css/styles.b388484b.css">
-<script src="/en/assets/js/runtime~main.db403d1f.js" defer="defer"></script>
+<link rel="alternate" type="application/atom+xml" href="/en/snippets/atom.xml" title="TzuChun.Blog Atom Feed"><link rel="stylesheet" href="/en/assets/css/styles.09af171a.css">
+<script src="/en/assets/js/runtime~main.36d38b9b.js" defer="defer"></script>
 <script src="/en/assets/js/main.c8dded2f.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -62,17 +62,26 @@
           text-decoration: none; 
         }
         .article-title a:hover {
-          color: var(--ifm-color-primary-light); /* 懸浮時變為更深的品牌色 */
+          color: var(--ifm-color-primary-lighter);
           text-decoration: none; /* 確保不會出現底線 */
+        }
+
+        html[data-theme='dark'] .article-title a:hover {
+          color: var(--ifm-color-primary); 
+          text-decoration: none; 
         }
         
         .article-desc { color: var(--ifm-color-content); margin-bottom: 1rem; line-height: 1.6; }
         .read-more { font-weight: bold; font-size: 0.9rem; }
         .read-more:hover {
-          color: var(--ifm-color-primary-light); /* 懸浮時變為更深的品牌色 */
+          color: var(--ifm-color-primary-lighter); /* 懸浮時變為更深的品牌色 */
           text-decoration: none; /* 確保不會出現底線 */
         }
-       
+
+        html[data-theme='dark'] .read-more:hover {
+          color: var(--ifm-color-primary); 
+          text-decoration: none; 
+        }
 
         /* 手機版：變成上下排列 */
         @media (max-width: 768px) {
