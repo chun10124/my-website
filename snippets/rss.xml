@@ -4,10 +4,24 @@
         <title>TzuChun.Blog Blog</title>
         <link>https://tzuchun.com/snippets</link>
         <description>TzuChun.Blog Blog</description>
-        <lastBuildDate>Tue, 18 Nov 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 Dec 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-TW</language>
+        <item>
+            <title><![CDATA[2025.12.05]]></title>
+            <link>https://tzuchun.com/snippets/column-point</link>
+            <guid>https://tzuchun.com/snippets/column-point</guid>
+            <pubDate>Fri, 05 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[用列點式確實能讓文章看起來：]]></description>
+            <content:encoded><![CDATA[<p>用列點式確實能讓文章看起來：</p>
+<ul>
+<li class="">清楚易讀</li>
+<li class="">有結構</li>
+<li class="">排版乾淨</li>
+</ul>
+<p>但也一點溫度都沒有了。</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[2025.11.18]]></title>
             <link>https://tzuchun.com/snippets/dont-want-grow-up</link>
