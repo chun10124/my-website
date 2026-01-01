@@ -11,7 +11,7 @@
 
 <link rel="alternate" type="application/rss+xml" href="/en/snippets/rss.xml" title="TzuChun.Blog RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/en/snippets/atom.xml" title="TzuChun.Blog Atom Feed"><link rel="stylesheet" href="/en/assets/css/styles.95379d3f.css">
-<script src="/en/assets/js/runtime~main.5175ba1a.js" defer="defer"></script>
+<script src="/en/assets/js/runtime~main.92eea927.js" defer="defer"></script>
 <script src="/en/assets/js/main.70699594.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -23,7 +23,7 @@
 <img src="/blogimg/Kingman.png" alt="2019" width="350">
 <br>
 <p>我知道它長得有點可怕，不過我們不需要知道每個符號的意義也可以運用這個公式。<strong>只要知道公式最左邊的 E(Wq) 代表等待時間的期望值，而 ρ 代表「稼動率」就行了（可以想像成工作負荷量）</strong>。</p>
-<p>在日常生活中，我們可以<strong>把等待時間 E(Wq) 想像成「待辦任務卡在手上的時間」，而 ρ 可以想像成「我在有限時間內，安排了多少任務」</strong>。</p>
+<p>再換個更平易近人的說法，我們可以<strong>把等待時間 E(Wq) 想像成「待辦任務卡在手上的時間」，而 ρ 想像成「我在有限的時間、精力下，安排了多少任務」</strong>。</p>
 <p>接著我們來做一些簡單的計算。</p>
 <ul>
 <li class="">
@@ -39,9 +39,9 @@
 <p>當負荷 ρ=1 (100%)，ρ/(1-ρ) 數值將趨近於無限大。</p>
 </li>
 </ul>
-<p>如果懶得仔細看上面的計算也沒關係，結論就是：當你將 ρ（負荷量）調到 90% 以上，等待時間的期望值會以翻倍的方式暴增；如果你把負荷量調到 100%，那等待時間的期望值會趨近於無限大。</p>
-<p><strong>因此我們可以推論，負荷量 ρ 調到太高，你的「待辦任務卡在手上的時間」將會暴增，而且這是一條非常陡峭的曲線，意味著「你一定會同時累積超多待辦事項，並且被每件事情追著跑」。</strong></p>
-<p>上面這段根本是許多人最寫實的心聲吧。</p>
+<p>結論就是：當你將 ρ（負荷量）調到 90% 以上，等待時間的期望值會以翻倍的方式暴增；如果你把負荷量調到 100%，那等待時間的期望值會趨近於無限大。</p>
+<p><strong>因此我們可以得知，只要負荷量 ρ 太高，你的「待辦任務卡在手上的時間」將會暴增，而且這是一條非常陡峭的曲線，意味著「你手上會同時累積超多待辦任務，並且被每件事情追著跑」。</strong></p>
+<p>我想上面所陳述的狀況，是許多人最寫實的心聲吧。</p>
 <p>那麼要如何避免這種崩潰的狀況呢？我們必須找到「適中」的負荷量。只要把公式畫成一條曲線，觀察不同的負荷量 ρ 下，曲線的狀況（等待時間的期望值），就可以找到最適合的負荷量。</p>
 <ul>
 <li class="">
@@ -54,7 +54,7 @@
 <p>爆炸區 (負荷 90% - 100%)：當稼動率趨近 100%，分母 (1−ρ) 趨近於 0，導致等待時間趨近於無限大，你應該可以體會到「大爆炸」是什麼感覺。</p>
 </li>
 </ul>
-<p>於是我們從<strong>公式推算出來的最佳負荷量大約在 80% 左右</strong>。 80% 理論在現實中也廣為受到製造業工廠使用。刻意的保留閒置的產能可以為工廠的穩定性擔保，避免因為任何失誤或不可控因素而導致整個系統崩潰，同時確保產品品質，也維持最佳的「存貨前置時間」來降低存貨成本。</p>
-<p>所以，數學都告訴你這麼多了，下次安排計劃時，<strong>也試著把時間、精力、都保留 20% 的空白當作備用，然後感受一下 80% 法則為你帶來的從容、高效率、高品質產出與穩定性吧！</strong></p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Blog post page navigation"><a class="pagination-nav__link pagination-nav__link--next" href="/en/blog/bus-dad"><div class="pagination-nav__sublabel">Older post</div><div class="pagination-nav__label">公車上的父親</div></a></nav></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/en/docs/intro">深度筆記</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="mailto:tzuchun11232004@gmail.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">我的聯絡信箱<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer" class="footer__link-item">Docusaurus 官網<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer" class="footer__link-item">Facebook<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://tzuchun.com/rss.xml" target="_blank" rel="noopener noreferrer" class="footer__link-item">RSS 訂閱<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/en/blog">Blog</a></li><li class="footer__item"><a class="footer__link-item" href="/en/snippets">想法碎片</a></li><li class="footer__item"><a href="https://github.com/facebook/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 TzuChun Chao</div></div></div></footer></div>
+<p>於是我們從<strong>公式推導出來的最佳負荷量大約在 80% 左右</strong>。 80% 法則在現實中也廣為受到製造業工廠使用，刻意地保留閒置產能可以為工廠的穩定性擔保，避免因為任何失誤或不可控因素而導致整個系統崩潰，同時確保產品品質，也維持最佳的「存貨前置時間」來降低存貨成本。</p>
+<p>所以，數學都告訴你 80% 法則了，下次安排計劃時，<strong>也試著把時間、精力、都保留 20% 的空白當作備用，然後感受一下 80% 法則為你帶來的從容、高效率、高品質產出與穩定性吧！</strong></p></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Blog post page navigation"><a class="pagination-nav__link pagination-nav__link--next" href="/en/blog/bus-dad"><div class="pagination-nav__sublabel">Older post</div><div class="pagination-nav__label">公車上的父親</div></a></nav></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/en/docs/intro">深度筆記</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="mailto:tzuchun11232004@gmail.com" target="_blank" rel="noopener noreferrer" class="footer__link-item">我的聯絡信箱<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://docusaurus.io" target="_blank" rel="noopener noreferrer" class="footer__link-item">Docusaurus 官網<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer" class="footer__link-item">Facebook<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://tzuchun.com/rss.xml" target="_blank" rel="noopener noreferrer" class="footer__link-item">RSS 訂閱<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a class="footer__link-item" href="/en/blog">Blog</a></li><li class="footer__item"><a class="footer__link-item" href="/en/snippets">想法碎片</a></li><li class="footer__item"><a href="https://github.com/facebook/docusaurus" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 TzuChun Chao</div></div></div></footer></div>
 </body>
 </html>
