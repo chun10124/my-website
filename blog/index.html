@@ -11,7 +11,7 @@
 
 <link rel="alternate" type="application/rss+xml" href="/snippets/rss.xml" title="TzuChun.Blog RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/snippets/atom.xml" title="TzuChun.Blog Atom Feed"><link rel="stylesheet" href="/assets/css/styles.7286c48d.css">
-<script src="/assets/js/runtime~main.99b2b447.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.f3a93182.js" defer="defer"></script>
 <script src="/assets/js/main.ec923840.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -42,13 +42,13 @@
 <p>如果懶得仔細看上面的計算也沒關係，結論就是：當你將 ρ（負荷量）調到 90% 以上，等待時間的期望值會以翻倍的方式暴增；如果你把負荷量調到 100%，那等待時間的期望值會趨近於無限大。</p>
 <p><strong>因此我們可以推論，負荷量 ρ 調到太高，你的「待辦任務卡在手上的時間」將會暴增，而且這是一條非常陡峭的曲線，意味著「你一定會同時累積超多待辦事項，並且被每件事情追著跑」。</strong></p>
 <p>上面這段根本是許多人最寫實的心聲吧。</p>
-<p>那麼要如何避免這種崩潰的狀況呢？我們必須找到「適中」的負荷量。只要把公式畫成一條曲線。觀察不同的負荷量 ρ 下，曲線的狀況（等待時間的期望值），就可以找到最適合的負荷量。</p>
+<p>那麼要如何避免這種崩潰的狀況呢？我們必須找到「適中」的負荷量。只要把公式畫成一條曲線，觀察不同的負荷量 ρ 下，曲線的狀況（等待時間的期望值），就可以找到最適合的負荷量。</p>
 <ul>
 <li class="">
 <p>平緩區 (負荷 0% - 80%)：此時曲線還很平緩，等待時間的期望值非常穩定。因此系統非常有彈性，就算偶爾有突發狀況，也能輕鬆消化。</p>
 </li>
 <li class="">
-<p>危險區 (負荷 80% - 90%)：曲線開始陡峭，等待時間期望值暴增。你幾乎一定會感覺到「事情做不完」，必須透過犧牲休息、加班或犧牲任務完成度來彌補變異。</p>
+<p>危險區 (負荷 80% - 90%)：曲線開始陡峭，等待時間期望值暴增。你幾乎一定會感覺到「事情做不完」，必須透過犧牲休息、加班來彌補變異。</p>
 </li>
 <li class="">
 <p>爆炸區 (負荷 90% - 100%)：當稼動率趨近 100%，分母 (1−ρ) 趨近於 0，導致等待時間趨近於無限大，你應該可以體會到「大爆炸」是什麼感覺。</p>
