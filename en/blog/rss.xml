@@ -14,7 +14,7 @@
             <guid>https://tzuchun.com/en/blog/time-management</guid>
             <pubDate>Fri, 26 Dec 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[如果常常被事情追著跑，這篇是寫給你的]]></description>
-            <content:encoded><![CDATA[<p>前幾天我看到一個公式，叫做<strong>金曼公式（Kingman's Formula）</strong>，它可以從科學的角度解釋為什麼「你永遠被任務追著跑」，有趣吧。</p>
+            <content:encoded><![CDATA[<p>前幾天我看到一個公式，叫做<strong>金曼公式（Kingman's Formula）</strong>，它可以從數學的角度解釋為什麼「你永遠被任務追著跑」，有趣吧。</p>
 <p>先來看看他長什麼樣。</p>
 <img src="https://tzuchun.com/blogimg/Kingman.png" alt="2019" width="350">
 <br>
@@ -29,7 +29,7 @@
 <p>當負荷 ρ=0.9 (90%)，ρ/(1-ρ) 數值跳到 9。</p>
 </li>
 <li class="">
-<p>當負荷 ρ=0.95 (95%)，ρ/(1-ρ) 數值是暴增到 19。</p>
+<p>當負荷 ρ=0.95 (95%)，ρ/(1-ρ) 數值暴增到 19。</p>
 </li>
 <li class="">
 <p>當負荷 ρ=1 (100%)，ρ/(1-ρ) 數值將趨近於無限大。</p>

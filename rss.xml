@@ -4,7 +4,7 @@
         <title>TzuChun.Blog 全站 RSS Feed</title>
         <link>https://tzuchun.com</link>
         <description>undefined</description>
-        <lastBuildDate>Fri, 02 Jan 2026 06:18:42 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Jan 2026 14:06:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
@@ -14,7 +14,7 @@
             <link>https://tzuchun.com/blog/time-management</link>
             <guid>https://tzuchun.com/blog/time-management</guid>
             <pubDate>Fri, 26 Dec 2025 00:00:00 GMT</pubDate>
-            <content:encoded><![CDATA[<p>前幾天我看到一個公式，叫做<strong>金曼公式（Kingman&#39;s Formula）</strong>，它可以從科學的角度解釋為什麼「你永遠被任務追著跑」，有趣吧。</p>
+            <content:encoded><![CDATA[<p>前幾天我看到一個公式，叫做<strong>金曼公式（Kingman&#39;s Formula）</strong>，它可以從數學的角度解釋為什麼「你永遠被任務追著跑」，有趣吧。</p>
 <p>先來看看他長什麼樣。</p>
 <img src="/blogimg/Kingman.png" alt="2019" width="350" />
 <br/>
@@ -28,7 +28,7 @@
 </li>
 <li><p>當負荷 ρ=0.9 (90%)，ρ/(1-ρ) 數值跳到 9。</p>
 </li>
-<li><p>當負荷 ρ=0.95 (95%)，ρ/(1-ρ) 數值是暴增到 19。</p>
+<li><p>當負荷 ρ=0.95 (95%)，ρ/(1-ρ) 數值暴增到 19。</p>
 </li>
 <li><p>當負荷 ρ=1 (100%)，ρ/(1-ρ) 數值將趨近於無限大。</p>
 </li>
