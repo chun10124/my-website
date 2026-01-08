@@ -2,11 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tzuchun.com/blog</id>
     <title>TzuChun.Blog Blog</title>
-    <updated>2025-12-26T00:00:00.000Z</updated>
+    <updated>2026-01-05T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tzuchun.com/blog"/>
     <subtitle>TzuChun.Blog Blog</subtitle>
     <icon>https://tzuchun.com/img/icon.logo.jpg</icon>
+    <entry>
+        <title type="html"><![CDATA[貓和兔的相處之道]]></title>
+        <id>https://tzuchun.com/blog/cat-and-rabbit</id>
+        <link href="https://tzuchun.com/blog/cat-and-rabbit"/>
+        <updated>2026-01-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[突發奇想]]></summary>
+        <content type="html"><![CDATA[<p>我和女友就像兩種動物 —— <strong>貓咪和兔子</strong>。</p>
+<p>我有許多跟貓咪相似的地方，例如潔癖、稍微有點難親近（對陌生人）、喜歡安靜的研究自己的東西。討厭麻煩、討厭噪音、不愛人多的地方。總結來說，我需要時間安靜舒適的待著，不論做事或休息或看書，當然，也需要充足的睡眠。</p>
+<p>而我覺得女友像是一隻兔子，精力旺盛的跳來跳去。她似乎對所有事情都有興趣，也喜歡到處跑來跑去。另外，她親和力應該也不錯，整體算是一隻很有活力的友善兔子。</p>
+<p>活力兔喜歡把自己的行程排得滿滿的，到處跑來跑去，做不同的事情。一開始貓咪看起來，不免有點驚訝，原來有人的生活是長這樣的呀，看起來很有活力也很多采多姿，甚至讓貓咪有點懷疑自己的生活，是不是哪裡有點問題？</p>
+<p>貓咪比較喜歡專心做幾件想做的事，因為選擇很少，所以可以很聚焦，也可以把事情慢慢地做好。一開始兔子看到，也同樣感到驚訝，原來有人是這樣的嗎？ 兔子開始懷疑自己是不是太發散了，事情也處理得不夠穩妥。</p>
+<p>因為貓和兔的不同，我們各自對自己產生了一些懷疑，也跟世上任何情侶一樣，經常會有意見不合的地方，或是吵架。</p>
+<p><strong>不過也因為不同，我們都為對方帶來生活中不曾出現的東西</strong>。貓咪可以帶給兔子更多的穩定性、安全感，也幫助兔子一步步變得更聚焦。而兔子則為貓咪的生活帶來新意與樂趣，帶領貓咪學習放輕鬆，接受生活可以更有彈性。</p>
+<p>我想，貓咪和兔子的相處之道，就是意識到，<strong>貓咪是貓咪，兔子是兔子。我們不可能一樣，但我們可以相互了解和配合</strong>。貓咪學習配合兔子更彈性、變化多端的生活。而兔子則學習給予貓咪想要的穩定性與簡單。</p>
+<p>這件事很難，我們還在摸索中。</p>
+<p>不過我想，貓咪和兔子會繼續走下去。</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>當然也有可能最後貓咪決定去找其他貓咪，兔子決定去找兔子...</p>
+<p>好沒，開玩笑的（這篇文章的質感就被這句毀了呵呵）。</p>]]></content>
+        <author>
+            <name>TzuChun Chao</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[神奇的公式]]></title>
         <id>https://tzuchun.com/blog/time-management</id>
