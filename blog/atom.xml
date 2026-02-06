@@ -2,11 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tzuchun.com/blog</id>
     <title>TzuChun.Blog Blog</title>
-    <updated>2026-01-23T00:00:00.000Z</updated>
+    <updated>2026-02-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tzuchun.com/blog"/>
     <subtitle>TzuChun.Blog Blog</subtitle>
     <icon>https://tzuchun.com/img/icon.logo.jpg</icon>
+    <entry>
+        <title type="html"><![CDATA[BlogBlog 同樂會心得]]></title>
+        <id>https://tzuchun.com/blog/review</id>
+        <link href="https://tzuchun.com/blog/review"/>
+        <updated>2026-02-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[很棒的社群]]></summary>
+        <content type="html"><![CDATA[<p>我參加了第一屆第一期 <a href="https://blogblog.club/party/" target="_blank" rel="noopener noreferrer" class="">BlogBlog 同樂會</a>，以下是我的心得～</p>
+<p>只能說，這次活動真是太成功啦！要不是有同樂會，我想我根本不會知道中文社群有這麼多活躍的部落格（畢竟身邊沒有人在寫），讀了幾篇文章後，也相當佩服筆者們的知識、文筆、品味。</p>
+<p>我不太知道該如何表達我的感受，但大概就是，<strong>我在部落格中，看到許多真正具有重量的文字，也看到許多願意記錄下來的想法。一切都是真摯且用心的，這是我在主流文字社群平台上從未有過的感受</strong>。</p>
+<p>另外超出我預期的，是即使這次投稿的文章足足有 150 篇，<a href="https://wiwi.blog/" target="_blank" rel="noopener noreferrer" class="">Wiwi</a>  還是整理了每篇文章的摘要，讓大家可以預覽內容，這可要花不少時間啊！真是謝謝 Wiwi 主辦這次活動，把有相同興趣、理念的大家聚集在一起。</p>
+<p>最近因為 AI 的關係，世界發展的很快速，網路上已經充斥著 AI 生成的內容了。而未來，可能馬上又會有更強的 AI 出現，世界不知會如何變化。</p>
+<p>如果有一群人，可以持續透過部落格真誠的交流，我想是一件很好的事情。</p>]]></content>
+        <author>
+            <name>TzuChun Chao</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[推坑無所事事]]></title>
         <id>https://tzuchun.com/blog/recommendation</id>
