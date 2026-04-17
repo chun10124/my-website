@@ -2,11 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tzuchun.com/blog</id>
     <title>TzuChun.Blog Blog</title>
-    <updated>2026-02-20T00:00:00.000Z</updated>
+    <updated>2026-04-17T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tzuchun.com/blog"/>
     <subtitle>TzuChun.Blog Blog</subtitle>
     <icon>https://tzuchun.com/img/icon.logo.jpg</icon>
+    <entry>
+        <title type="html"><![CDATA[10 年前的查資料方法]]></title>
+        <id>https://tzuchun.com/blog/long-time-ago</id>
+        <link href="https://tzuchun.com/blog/long-time-ago"/>
+        <updated>2026-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[耗了好幾個下午的小男孩]]></summary>
+        <content type="html"><![CDATA[<p>這是一篇臨時起意寫的文章，一轉眼離上篇文章已經快兩個月了，其實這兩個月間時不時都會有想寫 Blog 的念頭，卻總被其他事情搶走優先順位，今天趁著有空檔快速寫一下這幾天想到的一件事。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="沒有網路的時代">沒有網路的時代<a href="https://tzuchun.com/blog/long-time-ago#%E6%B2%92%E6%9C%89%E7%B6%B2%E8%B7%AF%E7%9A%84%E6%99%82%E4%BB%A3" class="hash-link" aria-label="沒有網路的時代的直接連結" title="沒有網路的時代的直接連結" translate="no">​</a></h3>
+<p>最近又再一次聽到了一位教授講述他大學時期艱辛的求學過程，類似的內容我大概已經聽過 500 遍了，不外乎就是：</p>
+<blockquote>
+<p>「以前沒有網路的時候，老師查資料都要到圖書館一本一本翻書」、「當時得把所有的論文資料都印下來帶回家看」、「作業不會寫一定要找到助教或老師本人才能解答」...</p>
+</blockquote>
+<p>大部分的時候我都當故事聽聽而已，但認真思考起來...這是一個我完全無法想像的世界！</p>
+<p>我是跟 Facebook 同一年誕生的，<strong>完全沒有經歷過任何「沒有網路」的時期</strong>，無法在手機、電腦上面查到資料，對我來講是很不真實的事。我也沒辦法接受要找個資料，竟然要到圖書館翻書！</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="等等現在呢">等等，現在呢？<a href="https://tzuchun.com/blog/long-time-ago#%E7%AD%89%E7%AD%89%E7%8F%BE%E5%9C%A8%E5%91%A2" class="hash-link" aria-label="等等，現在呢？的直接連結" title="等等，現在呢？的直接連結" translate="no">​</a></h3>
+<p>自 2025 年來 AI 爆發成長，我們也已經進入跨入了下一個世代了，今天 Gemini 這樣的工具已經好用到可以精準地解答你大部分的問題。現在我生活上遇到的疑難雜症，都會優先問他，然後就可以完全無腦的得到想要的答案，不費一絲力氣。</p>
+<p>我想 2020 年以後出生的小朋友，往後也都會使用這種搜集資料的方法，再也沒有人（或是只剩很少人）需要「自己查資料了」，就像我覺得要去圖書館翻書很麻煩一樣，他們也會覺得無法用 AI 直接得到答案是一件很麻煩的事。</p>
+<p>沒有 AI 可以無腦問答的時代，對他們來講，<strong>就是那個完全沒有經歷過，也無法想像的時代</strong>。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="2010-2022-年的查資料方法">2010-2022 年的查資料方法<a href="https://tzuchun.com/blog/long-time-ago#2010-2022-%E5%B9%B4%E7%9A%84%E6%9F%A5%E8%B3%87%E6%96%99%E6%96%B9%E6%B3%95" class="hash-link" aria-label="2010-2022 年的查資料方法的直接連結" title="2010-2022 年的查資料方法的直接連結" translate="no">​</a></h3>
+<p>其實不要說他們了，連我都有點快忘記以前完全沒有 AI 的時候，我是如何查資料的，所以在這裡回憶一下。</p>
+<p><strong>2011</strong>：這時候我在讀小學一年級，經常會有要回家查字典的作業，每個人必須帶著一本小小但厚厚的實體字典，用注音符號檢索的方式，翻頁尋找某個字怎麼寫，以及讀音、造詞之類的，算是一種蠻麻煩的查詢方式，我從那之後就再也沒有用過實體字典了。</p>
+<p><strong>2012-2013</strong>：沒記錯的話，小學二、三年級已經可以使用電子字典了，每天回家寫作業的標準流程就是拿起我媽的 iPad，搜尋「教育部辭典」，然後輸入自己想要找的字或詞。這個查詢方式其實也有一定難度，難點在於「教育部的辭典有超多個版本==」，有什麼重編本、簡編本等等，記得那時候同一個字，每個版本查出來的讀音還會不一樣咧，經常連老師都不知道要用哪個版本。更扯的是，很多詞彙在某些版本上面還找不到，於是查詢難度就在這種很蠢的狀況下被拉滿了...</p>
+<p><strong>2015-2017</strong>：國小高年級的我開始習慣使用電腦了，這時候為了玩 Minecraft 經常需要上網查一些資訊，比如開伺服器的方法、裝光影的方法、裝模組的方法、區域網路連線的方法等。查詢的方法是海量攝取各種 Youtube 教學，還有上巴哈姆特看有沒有前人留下的筆記。由於當時我的理解力還不太好（畢竟年紀小），加上網路資料很零碎，遇到問題後經常是無法查到完整的解答的，於是處理這些問題真是超級費心。我經常花一整個下午或晚上試著做一件事，最後卻還是失敗告終，例如我記得當時要裝光影就耗費了我好多、好多次嘗試，最後才終於試出來方法了。</p>
+<p><strong>2017-2022</strong>：這五年我認為查資料的方式大致上跟原本沒有什麼改變。</p>
+<p><strong>2022-2023</strong>：AI 出現，開始試著跟他聊天，第一次用的感覺是，哇賽這個真的不是笨 Siri 欸，覺得太神奇了，不過這個時期 AI 還有很多需要進步的地方，我還不太會把想查東西直接聯想到問 AI。這時候的 AI 也還不太會寫微積分，這種作業還是要<del>直接找解答檔案</del>自己寫比較快。</p>
+<p><strong>2024-今天</strong>：大家應該都知道了，Gemini、Perplexity 這些工具非常好用，我們的依賴度也越來越高...甚至我連牙齒碎了一角、腸胃炎狀況等，都會先問他。我甚至覺得他在教學上面，已經比任何一個老師的教學效果都更好了。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="做個紀念">做個紀念<a href="https://tzuchun.com/blog/long-time-ago#%E5%81%9A%E5%80%8B%E7%B4%80%E5%BF%B5" class="hash-link" aria-label="做個紀念的直接連結" title="做個紀念的直接連結" translate="no">​</a></h3>
+<p>我想以這篇文章，在我完全習慣於未來的新方式，甚至忘記以前的查資料方法之前，把過往記錄下來。</p>
+<p>也許以後再也不會有一個小孩為了想玩個遊戲，研究好幾個下午了。</p>]]></content>
+        <author>
+            <name>TzuChun Chao</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[等高鐵好危險]]></title>
         <id>https://tzuchun.com/blog/dangerous</id>
