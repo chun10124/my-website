@@ -4,32 +4,34 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '為什麼要架個人網站？',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        受到「好和弦」筆者 Wiwi 的啟發，我決定將文章發佈在“自己的”個人網站上。
+        這裡不受任何平台的限制，我也能隨意更改網站內容。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '這裡會分享...',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        這裡會分享我的生活與任何想法。<br />
+        不論是生活中的觀察、不限範圍的知識，<br />
+        甚至簡短的一句感想，都可能出現。
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '加入自由的行列',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        如果你也想架設自己的個人網站，<br />
+        可以使用「Docusaurus」，
+        這裡就是用它架設的，跟我一起減少對社群平台的依賴吧！
       </>
     ),
   },

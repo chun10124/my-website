@@ -1,0 +1,202 @@
+/* 檔案路徑: LatestPosts.module.css */
+
+.latestPosts {
+  width: 100%;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.columnsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem;
+  flex-wrap: wrap; 
+  width: 90%;
+  max-width: 1200px;
+}
+
+.column {
+  flex: 1 1 45%;
+  min-width: 320px;
+}
+
+.title {
+  font-size: 1.75em;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+  text-align: left;
+  color: var(--ifm-heading-color);
+  border-bottom: 2px solid var(--ifm-color-primary);
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+
+.latest_post_row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+/* 替換：列表項目使用 Flex 佈局 (左圖右文) */
+.latest_post_row_item {
+  display: flex; /* 改為 Flexbox */
+  align-items: flex-start; /* 圖片和文字從頂部對齊 */
+  column-gap: 1em; /* 圖片和內容的間隔 */
+  padding: 0.4em 0;
+  /*border-bottom: 1px solid var(--ifm-color-emphasis-300);*/
+  height: 110px; /* 預估值：配合 75px 圖片高度和上下 Padding */
+  overflow: hidden;
+}
+
+/* -------------------------------------
+   新增：圖片區塊樣式
+   ------------------------------------- */
+
+/* 圖片容器：用於設置固定的尺寸 */
+.post_list_image_container {
+  flex: 0 0 130px; /* 固定圖片容器的寬度 */
+  height: 90px; /* 設定容器高度 */
+  overflow: hidden;
+  border-radius: 0; /* 移除圓角 */
+}
+
+/* 圖片本身樣式 */
+.post_list_thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 確保圖片填滿並裁切 */
+  border-radius: 0; /* 移除圓角 */
+  display: block;
+}
+
+/* -------------------------------------
+   新增：移動後的日期樣式
+   ------------------------------------- */
+.post_list_moved_date {
+  font-size: 0.75em;
+  font-weight: 500;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 0.2rem;
+  line-height: 1;
+}
+html[data-theme="dark"] .post_list_moved_date {
+    color: var(--ifm-color-emphasis-500);
+}
+
+
+.latest_post_row_item_title a {
+  font-size: 1.5em;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--ifm-link-color);
+}
+
+.latest_post_row_item_title a:hover {
+  text-decoration: none;
+  color: var(--ifm-color-primary-lighter);
+}
+
+
+/* 內容區塊 */
+.post_content_container {
+  flex: 1; /* 佔滿剩餘空間 */
+}
+
+.tag {
+  display: inline-block;
+  background-color: var(--ifm-color-emphasis-200);
+  color: var(--ifm-font-color-base);
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 0.75em;
+  margin-right: 0.5em;
+  text-decoration: none;
+}
+
+html[data-theme="dark"] .tag {
+  background-color: var(--ifm-color-emphasis-700);
+  color: var(--ifm-color-primary-lightest);
+}
+
+/* 底部按鈕 */
+.moreButtonContainer {
+  margin-top: 1rem;
+  text-align: right;
+}
+
+.moreButton {
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.moreButton:hover {
+  text-decoration: none;
+  color: var(--ifm-color-primary-lighter);
+}
+
+.latest_post_row_item_desc {
+  font-size: 1rem;
+  color: var(--ifm-font-color-secondary);
+  margin-top: 0.4em;
+  line-height: 1.7;
+  transform: translateY(-0.4em);
+
+  /* 關鍵：只顯示一行並加上省略號 */
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+/* 只讓左邊「最新貼文」整欄往左移動 */
+.leftColumn {
+  transform: translateX(-2rem); /* 向左移 2rem，可依實際畫面微調 -1rem ~ -3rem */
+}
+
+/* 螢幕小時回正，避免手機版貼邊 */
+@media (max-width: 900px) {
+    .leftColumn {
+        transform: translateX(-0.5rem); 
+    }
+
+    .post_list_date_yearmonth {
+        font-size: 0.8em;
+        font-weight: 500;
+    }
+    .post_list_date_day {
+        font-size: 0.9em !important;
+        font-weight: 500;
+    }
+    
+    /* 手機版修正：確保圖片和內容的間距正常 */
+    .latest_post_row_item {
+        column-gap: 0.8em;
+    }
+}
+
+/* 手機版：縮小「生活貼文」與「深度筆記」之間的空白 */
+@media (max-width: 900px) {
+  .columnsContainer {
+    gap: 1.5rem !important;   /* 原本 3rem → 大幅縮小 */
+  }
+}
+
+
+html[data-theme="dark"] .moreButton:hover {
+    /* 使用最亮的品牌色 (lightest) 或極淺色來確保高對比度 */
+    color: var(--ifm-color-primary); 
+    text-decoration: none;
+}
+
+html[data-theme="dark"] .moreButton {
+    /* 使用最亮的品牌色 (lightest) 或極淺色來確保高對比度 */
+    color: var(--ifm-color-primary-lighter); 
+    text-decoration: none;
+}

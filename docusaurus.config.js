@@ -8,10 +8,33 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+// ===== RSS/Atom 發文時間修正 =====
+// 只有日期、沒寫時間的文章，Docusaurus 內建會標成 UTC 午夜（= 台北早上 8:00），
+// 害文章在讀者的「Today」分頁提早過期。這裡統一改成「台北當天晚上 21:00」，
+// 和 src/bin/generateFullRSS.js 使用同一套規則。
+function taipeiDateOnly(y, m, d) {
+  const mm = String(m).padStart(2, '0');
+  const dd = String(d).padStart(2, '0');
+  return new Date(`${y}-${mm}-${dd}T21:00:00+08:00`);
+}
+
+function correctFeedDate(post) {
+  // 1. 檔名 YYYY-M-D-x.md（容許單位數月/日）
+  const base = String(post?.metadata?.source || '').split('/').pop() || '';
+  const m = base.match(/^(\d{4})-(\d{1,2})-(\d{1,2})/);
+  if (m) return taipeiDateOnly(m[1], m[2], m[3]);
+  // 2. 沒有檔名日期時，若原日期剛好落在 UTC 午夜，視為「只有日期」→ 補台北 21:00
+  const d = post?.metadata?.date ? new Date(post.metadata.date) : null;
+  if (d && !isNaN(d) && d.toISOString().endsWith('T00:00:00.000Z')) {
+    return taipeiDateOnly(d.getUTCFullYear(), d.getUTCMonth() + 1, d.getUTCDate());
+  }
+  return null; // 作者已寫明確時間 → 保持原值
+}
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'TzuChun.Blog',
-  tagline: '我的想法與生活',
+  tagline: '我的生活與想法',
   favicon: '/img/icon.logo.jpg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -20,10 +43,10 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://chun10124.github.io',
+  url: 'https://tzuchun.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/my-website/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -36,8 +59,13 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-TW',  // 預設語言是繁體中文
+    locales: ['zh-TW'], // 目前只有中文版（英文版尚無翻譯內容，先移除）
+    localeConfigs: {
+      'zh-TW': {
+      label: '繁體中文',
+      },
+    },
   },
 
   presets: [
@@ -49,20 +77,25 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+            //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
+            // 修正 date-only 文章的發文時間（台北 21:00），對 /blog/rss.xml 與 /blog/atom.xml 生效
+            createFeedItems: async ({blogPosts, defaultCreateFeedItems, ...rest}) => {
+              const items = await defaultCreateFeedItems({blogPosts, ...rest});
+              return items.map((item, i) => {
+                const corrected = correctFeedDate(blogPosts[i]);
+                return corrected ? {...item, date: corrected} : item;
+              });
+            },
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
+          blogSidebarCount: 'ALL',      // 顯示所有文章
+          blogSidebarTitle: '所有貼文', // 可自訂側邊欄標題
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -74,11 +107,35 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'snippets', 
+        path: 'snippets', 
+        routeBasePath: 'snippets',
+
+        blogSidebarTitle: '所有想法碎片',
+        showReadingTime: true,
+        blogSidebarCount: 'ALL', // 側邊欄顯示所有文章
+      },
+    ],
+
+    [
+    require.resolve('@easyops-cn/docusaurus-search-local'),
+    {
+      hashed: true,
+      language: ['zh', 'en'], // 中文一定要含 'zh'
+      highlightSearchTermsOnTargetPage: true,
+    },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/icon.logo.JPG',
       colorMode: {
         respectPrefersColorScheme: true,
       },
@@ -89,17 +146,26 @@ const config = {
           src: '/img/icon.logo.JPG',
         },
         items: [
+          
+          {to: '/blog', label: '生活貼文', position: 'left'},
+          
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'notesSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '深度筆記',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            // 這是您的新連結
+            to: '/snippets', 
+            label: '想法碎片', 
+            position: 'left',
+          },
+
+          {
+            type: 'search', 
+            position: 'right', // 通常放在右邊
           },
         ],
       },
@@ -110,7 +176,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: '深度筆記',
                 to: '/docs/intro',
               },
             ],
@@ -119,26 +185,37 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: '我的聯絡信箱',
+                href: 'mailto:tzuchun11232004@gmail.com',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Docusaurus 官網',
+                href: 'https://docusaurus.io',
               },
               {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'Facebook',
+                href: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
               },
             ],
           },
           {
             title: 'More',
             items: [
+
+              {
+                label: 'RSS 訂閱',
+                href: 'https://tzuchun.com/rss.xml',
+},
               {
                 label: 'Blog',
                 to: '/blog',
               },
+
+              {
+                label: '想法碎片',
+                to: '/snippets',
+              },
+
               {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',
@@ -146,8 +223,16 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} TzuChun Chao`,
       },
+
+      metadata: [
+        {
+          name: 'docusaurus_tag', // 這是 Docusaurus 搜尋功能需要的識別碼
+          content: 'search_enabled', // 告訴 Docusaurus 啟用搜尋
+        },
+      ],
+
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,

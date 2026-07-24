@@ -5,28 +5,71 @@
  */
 
 /* You can override the default Infima variables here. */
+
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  /* 主要品牌顏色 (Primary Color): 更藍一點的 Cyan/Sky Blue #00A3C9 */
+ --ifm-color-primary: #2A6F97;
+  --ifm-color-primary-dark: #245E82;
+  --ifm-color-primary-darker: #1F526F;
+  --ifm-color-primary-darkest: #173B52;
+  --ifm-color-primary-light: #3A83A8;
+  --ifm-color-primary-lighter: #4E96BA;
+  --ifm-color-primary-lightest: #74B5D1;
+
+  --ifm-link-color: #2A6F97;
+
+
+
+  /* 基礎文字顏色: 使用深灰色確保高易讀性 */
+  --ifm-font-color-base: #333333; 
+
+  /* 程式碼區塊等細節顏色 */
   --ifm-code-font-size: 95%;
+  --ifm-code-background: #f0fafa;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* ---------------------------------------------------- */
+/* 深色模式 (Dark Mode) - 保持高對比度且使用更亮的藍色 */
+/* ---------------------------------------------------- */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  /* 確保高對比度：使用極深背景 (解決文字不可見問題) */
+  --ifm-background-color: #11161C;  
+  --ifm-background-surface-color: #1e1e1e; 
+  
+  /* 確保高對比度：使用極淺文字 (解決文字不可見問題) */
+  --ifm-font-color-base: #f1f1f1; 
+
+  /***** 主品牌色（方案A：高級灰藍）*****/
+  /* 不使用亮藍，而是偏灰、低亮度的深沉灰藍 → 高級感來源 */
+  --ifm-color-primary: #5A8FB0;
+  --ifm-color-primary-dark: #4D7A96;
+  --ifm-color-primary-darker: #426A82;
+  --ifm-color-primary-light: #6FA2C0;
+  --ifm-color-primary-lighter: #8AB8D2;
+  --ifm-color-primary-lightest: #A9CCE0;
+
+  /* 連結與 hover */
+  --ifm-link-color: #8AB8D2;
+  --ifm-link-hover-color: #A9CCE0;
+
+  /***** Navbar *****/
+  --ifm-navbar-background-color: #12171D;
+  --ifm-navbar-link-color: #E6E9EE;
+  --ifm-navbar-link-hover-color: #8AB8D2;
+
+  /***** 邊框、表格、分隔線 *****/
+  --ifm-table-border-color: #233040;
+  --ifm-color-emphasis-200: #233040;
+  --ifm-toc-border-color: #233040;
+
+  /***** Footer *****/
+  --ifm-footer-background-color: #0F1317;
+  --ifm-footer-color: #BFC6CE;
+
+  /***** 程式碼區塊 *****/
+  --ifm-code-background: #1F252E;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.12);
 }
 
 /* 讓 navbar logo 變成圓形 */
@@ -58,4 +101,245 @@
 /* 滑過整個區塊時，logo 也同步放大一點點 */
 .navbar__brand:hover .navbar__logo img {
   transform: scale(1.05);
+}
+
+.hero__title {
+  /* 你的主要標題（Title）*/
+  color: #333;
+}
+
+.hero__subtitle {
+  /* 你的副標題（Subtitle）*/
+  color: #333; 
+}
+
+.HomepageBanner {
+  background-image: url('/img/banner.jpeg');
+  background-size: cover;
+  background-position: center 48%;
+  padding-top: 10%;
+  /* 您想要的正方形或更高的比例 */
+  min-height: 320px; 
+  position: relative;
+  display: flex;
+  justify-content: center; /* 水平置中 */
+  text-align: center;
+  padding: 0 20px; /* 內邊距，避免內容緊貼邊緣 */
+}
+
+.HomepageBanner::after {
+  content: "";
+  position: absolute;
+  bottom: -0.18rem; /* 調整這個值來控制分隔線離 Banner 內容的距離 */
+  left: 0.5;
+  right: 0.5; /* 讓線條水平居中 */
+  
+  /* 分隔線的樣式 */
+  width: 100%; /* 線條的長度，可以調整 */
+  height: 3px;  /* 線條的粗細，可以調整 */
+  
+  background-color: rgba(146, 145, 145, 0.447); 
+  
+  /* 3. 關鍵：添加背景模糊效果 */
+  backdrop-filter: blur(5px); 
+  -webkit-backdrop-filter: blur(5px); /* 兼容 Safari */
+  
+  border-radius: 999px; /* 讓線條的兩端呈現圓角 */
+  z-index: 10;
+}
+
+html[data-theme='light'] .HomepageBanner::after {
+  /* 亮色模式：使用半透明深灰色/黑色 */
+  /* rgba(0, 0, 0, 0.3) -> 黑色，透明度 0.3 */
+  background-color: rgba(143, 142, 142, 0.451);  
+  
+  /* 模糊度可以保持不變，或根據需要微調 */
+  backdrop-filter: blur(5px); 
+  -webkit-backdrop-filter: blur(5px);
+}
+
+@media screen and (min-width: 997px) {
+  .HomepageBanner {
+    min-height: 340px; 
+  }
+
+  .HomepageTitle{
+    font-size: 4.7rem !important;
+  }
+}
+
+.HomepageTagline {
+  font-size: 1.7rem;
+  /* 設置上邊距為負值，將其向上拉近標題 */
+  margin-top: -84px; 
+  color: white; 
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+
+/* 標題樣式 */
+.HomepageTitle {
+  font-size: 3.8rem;
+  color: white; 
+  font-weight: 700;
+}
+
+/* 2. 內容容器：定義內容的佈局 */
+.myContentContainer {
+  /* 讓內容垂直佈局 */
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  max-width: 960px; /* 限制內容的最大寬度 */
+  gap: 3.5rem;
+  transform: translateY(58px);
+}
+
+/* 2. 內容容器：定義內容的佈局 */
+.ContentContainer {
+  /* 讓內容垂直佈局 */
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  max-width: 960px; /* 限制內容的最大寬度 */
+  gap: 3.5rem;
+  transform: translateY(58px);
+}
+
+/* 5. 按鈕容器 */
+.HomepageButtonContainer {
+  /* */
+}
+
+html[data-theme='light'] {
+  /* 設定標題為純黑色 */
+  .HomepageTitle {
+    color: #ffffff !important; /* 標題 (siteConfig.title) */
+  }
+
+  /* 設定副標題為純黑色 */
+  .HomepageTagline {
+    color: #ffffff !important; /* 副標題 (我的想法與生活) */
+  }
+}
+
+/* Docusaurus 預設的移動設備斷點通常在 996px 以下 */
+@media screen and (max-width: 996px) {
+  
+  .HomepageTitle {
+    /* 舉例：將桌面上的大字體縮小到適合手機的尺寸 */
+    font-size: 2.9rem !important; 
+    transform: translateY(-25px) !important;
+  }
+  
+  /* 鎖定 Banner 副標題（例如：我的生活與想法）*/
+  .HomepageTagline {
+    /* 將副標題縮小到更合適的尺寸 */
+    font-size: 1.6rem !important;
+    letter-spacing: 2px !important;
+    margin-bottom: 0.8rem;
+    position: relative;
+    transform: translateY(-22px) !important;
+  }  
+
+  .HomepageButtonContainer {
+    margin-top: 0.75cm !important;
+    transform: translateY(-65px) !important;
+  }
+  .HomepageBanner {
+    min-height: 200px !important;   /* 原本 320px → 改短 */
+    padding-top: 4% !important;
+    padding-bottom: 4% !important;
+    margin-bottom: 0.7% !important;
+    background-position: center 40% !important; /* 讓主體更聚焦 */
+  }
+}
+
+
+.sidebarItemLink_mo7H {
+    transition: color 0.2s ease; 
+}
+
+/* 我們鎖定容器內的 sidebarItemLink_mo7H 類別 */
+.sidebar_re4s .sidebarItemLink_mo7H:hover { 
+    /* 強制將文字顏色改為主題主色 */
+    color: var(--ifm-color-primary) !important; 
+    
+    /* 確保背景色透明 */
+    background-color: transparent !important; 
+}
+
+/* 確保當前活躍的文章顏色不被覆蓋 */
+.sidebar_re4s .sidebarItemLinkActive_I1ZP {
+    /* sidebarItemLinkActive_I1ZP 是活躍連結的類別 */
+    color: var(--ifm-color-emphasis-100) !important; 
+}
+
+.main-wrapper main section {
+  /* 移除預設的頂部間距 */
+  margin-top: -2rem; 
+}
+
+html[data-theme='dark'] .navbar {
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+}
+
+a {
+  /* 移除預設底線，並增加顏色過渡動畫 */
+  text-decoration: none; 
+  transition: color 0.2s ease; 
+}
+
+html[data-theme='light'] a:hover {
+  /* 使用你自訂的淺藍色 Hex 碼 */
+  color: var(--ifm-color-primary-lighter); 
+  text-decoration: none; 
+}
+
+html[data-theme='dark'] a:hover {
+  /* 在深色背景下，使用比基色更亮一點的顏色來增強對比 */
+  color: var(--ifm-color-primary); 
+  text-decoration: none;
+}
+
+
+/* 首頁 about 按鈕 */
+html[data-theme='light'] .button--secondary:hover,
+html[data-theme='light'] .button:hover {
+    /* 亮色模式下，強制按鈕文字為深色基色 */
+    color: var(--ifm-font-color-base) !important; 
+}
+
+html[data-theme='dark'] .button--secondary:hover,
+html[data-theme='dark'] .button:hover {
+    /* 亮色模式下，強制按鈕文字為深色基色 */
+    color: black !important; 
+}
+
+/*修正：Tip (Admonition) 內的連結顏色
+   ------------------------------------- */
+
+/* 1. 基礎狀態：讓連結顏色更深一點 (亮色模式) */
+html[data-theme='light'] .alert--success a {
+    color: var(--ifm-color-primary-darker);
+    font-weight: 600; /* 加粗讓它更明顯 */
+    text-decoration: underline; /* 加上底線是辨識連結最快的方法 */
+    text-underline-offset: 3px;
+}
+
+/* 2. 懸浮狀態：使用你指定的淺藍色，並加強底線 */
+html[data-theme='light'] .alert--success a:hover {
+    color: var(--ifm-color-primary-light) !important;
+    text-decoration: underline;
+}
+
+/* 3. 暗色模式修正：讓連結呈現亮藍色 */
+html[data-theme='dark'] .alert--success a {
+    color: var(--ifm-color-primary-lighter);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+html[data-theme='dark'] .alert--success a:hover {
+    color: var(--ifm-color-primary-lightest) !important;
 }

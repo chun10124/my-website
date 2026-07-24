@@ -6,24 +6,25 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
+import LatestPosts from "../components/LatestPosts";
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={styles.myCustomHeader}>
-      <div className={styles.myContentContainer}>
-        <Heading as="h1" className={styles.myTitle}>
+    <header className={"HomepageBanner"}>
+      <div className={"ContentContainer"}>
+        <Heading as="h1" className={"HomepageTitle"}>
           {siteConfig.title}
         </Heading>
-        <p className={styles.myTagline}>
-          我的想法與生活
+        <p className={"HomepageTagline"}>
+          我的生活與想法
         </p>
 
-        <div className={styles.myButtonContainer}>
+        <div className={"HomepageButtonContainer"}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            閱讀最新文章
+            to="/about">
+            About
           </Link>
         </div>
       </div>
@@ -35,11 +36,11 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`TzuChun.Blog：生活貼文|深度筆記|想法碎片`}
+      description="TzuChun.Blog - 整理生活、紀錄學習與放置想法的地方">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <LatestPosts />
       </main>
     </Layout>
   );

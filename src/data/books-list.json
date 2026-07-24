@@ -1,0 +1,37 @@
+[
+  {
+    "title": "為什麼要睡覺",
+    "date": "2026-01-08T00:00:00.000Z",
+    "description": "睡好覺比你想得更重要",
+    "book_cover": "/docsimg/WhyWeSleep.png",
+    "link": "/docs/books-wht-we-sleep"
+  },
+  {
+    "title": "原子習慣（下）",
+    "date": "2025-11-16T00:00:00.000Z",
+    "description": "如何建立習慣？",
+    "book_cover": "/docsimg/AtomicHabits.png",
+    "link": "/docs/books-AtomicHabits-2"
+  },
+  {
+    "title": "原子習慣（上）",
+    "date": "2025-11-15T00:00:00.000Z",
+    "description": "為什麼你沒辦法維持好習慣？",
+    "book_cover": "/docsimg/AtomicHabits.png",
+    "link": "/docs/books-AtomicHabits"
+  },
+  {
+    "title": "刻意練習（下）",
+    "date": "2025-11-04T00:00:00.000Z",
+    "description": "學習如何實踐「刻意練習」",
+    "book_cover": "/docsimg/practice.png",
+    "link": "/docs/books-deliberately-practice-2"
+  },
+  {
+    "title": "刻意練習（上）",
+    "date": "2025-10-30T00:00:00.000Z",
+    "description": "用科學解釋那些超越常人的「超能力」",
+    "book_cover": "/docsimg/practice.png",
+    "link": "/docs/books-deliberately-practice-1"
+  }
+]
