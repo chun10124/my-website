@@ -2,16 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tzuchun.com/blog</id>
     <title>TzuChun.Blog Blog</title>
-    <updated>2026-05-22T00:00:00.000Z</updated>
+    <updated>2026-07-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tzuchun.com/blog"/>
     <subtitle>TzuChun.Blog Blog</subtitle>
     <icon>https://tzuchun.com/img/icon.logo.jpg</icon>
     <entry>
+        <title type="html"><![CDATA[App 秀下限]]></title>
+        <id>https://tzuchun.com/blog/bad-app</id>
+        <link href="https://tzuchun.com/blog/bad-app"/>
+        <updated>2026-07-24T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[近期被惹惱的設計]]></summary>
+        <content type="html"><![CDATA[<p>因為這兩個月比較忙，所以很久沒更新。回歸的第一篇打算寫一個短文，抱怨一下近期被幾個 App 「秀下限」的行為惹惱的那些事。</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="一line付費收回">一、LINE：付費收回<a href="https://tzuchun.com/blog/bad-app#%E4%B8%80line%E4%BB%98%E8%B2%BB%E6%94%B6%E5%9B%9E" class="hash-link" aria-label="一、LINE：付費收回的直接連結" title="一、LINE：付費收回的直接連結" translate="no">​</a></h3>
+<p>大概近一兩個月，LINE 開始把收回訊息的功能改成「付費解鎖」的功能，沒有付費的用戶只能收回一小時以內的訊息。如果訊息已經送出超過一小時了，那你只會看到下面這個框框...</p>
+<img src="https://tzuchun.com/img/IMG_badline.PNG" width="250">
+<p>我真的不知道這是哪個天才想出的設計，收回自己所發出的訊息，竟然是一個需要付費的功能。從另一個角度想回來，LINE 今天想要推廣他們的付費產品 LINE Premium，不端出一點真材實料提升使用者體驗的東西，竟然好意思把收回訊息當成一個 Feature...</p>
+<p><strong>我個人推測 LINE 的這波操作，根本不會讓原本不願意花錢買 Premium 的人們掏錢出來，但倒是會很成功的惹惱大部分的免費用戶。</strong></p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>給 LINE 的友善建議</div><div class="admonitionContent_BuS1"><p>如果想要透過「不能收回訊息」來逼用戶買 Premium 的話，何必從「收回」下手呢？直接從「傳送」下手就好啦，直接限制免費用戶一天只能發送 20 則訊息，更有效！</p></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="二youtube溫水煮青蛙的廣告數量">二、Youtube：溫水煮青蛙的廣告數量<a href="https://tzuchun.com/blog/bad-app#%E4%BA%8Cyoutube%E6%BA%AB%E6%B0%B4%E7%85%AE%E9%9D%92%E8%9B%99%E7%9A%84%E5%BB%A3%E5%91%8A%E6%95%B8%E9%87%8F" class="hash-link" aria-label="二、Youtube：溫水煮青蛙的廣告數量的直接連結" title="二、Youtube：溫水煮青蛙的廣告數量的直接連結" translate="no">​</a></h3>
+<p>今天我打開 Youtube 時，廣告畫面已經長這樣了...</p>
+<img src="https://tzuchun.com/img/IMG_9858.PNG" width="250">
+<p>現在的廣告已經塞到佔據整個螢幕，如果要把廣告關掉，得先把下方懸浮的區塊滑掉，再按螢幕右下方的叉叉，再等待上方的廣告秒數跑完（有時還得看兩個廣告），按跳過廣告，最後才能逃離這塊塞滿廣告的螢幕。</p>
+<p>可怕的是，我體感上以前的廣告絕對沒這麼多，卻想不起來五年前 Youtube 的廣告數量「具體」是多少，因為 Youtube 一直使用溫水煮青蛙的方式，在一次次的改版中，偷偷增加廣告量，等到很長一段時間過後，突然清醒才會發現「哇靠，這是什麼廣告量」，也有很多人還來不及清醒就被煮熟了。</p>
+<p>也許十年後的 Youtube，免費用戶要觀看一部影片，開始前需要先關掉 15 個廣告，不過可能到時候大家都已經被「煮透了」，沒有人覺得有什麼不對勁的，就像我現在也想不起來以前的 Youtube 長什麼樣子一樣。</p>
+<p><strong>另一個 Youtube 簡直秀下限的設計是「關掉廣告以後的廣告」。</strong></p>
+<p>原本的設計是，在一部影片的中間會穿插一些廣告，用戶只要等個幾秒按跳過廣告，就可以繼續看影片了，但最近一個新的設計也是讓我十分驚艷，怎麼已經跳過廣告了，還有一個廣告呀？</p>
+<img src="https://tzuchun.com/img/IMG_9860.PNG" width="550">
+<p>這個設計簡直天才，如果你不手動把它關掉的話，它是不會自動消失的，而它的位置不偏不移的完美擋住字幕，也時常擋住重要的影片內容。</p>
+<p>套用「溫水煮青蛙」理論，只要慢慢來，這塊廣告變得越來越大，人們是不會發現異狀的。十年後的 Youtube，廣告大概已經大到擋住「整個畫面」了，並且那時的人們會說「這有什麼奇怪的？」。</p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>給 Youtube 的友善建議</div><div class="admonitionContent_BuS1"><p>目前的方向很正確，持續朝每部影片 15 個廣告與越來越大的廣告前進，也可以考慮做一個關掉廣告以後再關掉廣告以後的廣告。</p></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="三無底洞與解方">三、無底洞與解方<a href="https://tzuchun.com/blog/bad-app#%E4%B8%89%E7%84%A1%E5%BA%95%E6%B4%9E%E8%88%87%E8%A7%A3%E6%96%B9" class="hash-link" aria-label="三、無底洞與解方的直接連結" title="三、無底洞與解方的直接連結" translate="no">​</a></h3>
+<p>以上分享幾個近期遇到「簡直在秀下限」的設計，生活中遇到的爛功能其實還更多，不過就不一一贅述。</p>
+<p>可能會有人覺得，訂閱費也不貴，花個 100-200 台幣解決一下，也沒什麼。我同意訂閱費確實不貴，但卻覺得，我要為了個「收回訊息」的功能付費，或是為了「Youtube 把 App 做得超難用」而付費，感覺超不爽！</p>
+<p>而且如果這些公司只要把 App 做得越來越難用，消費者就要付費解決的話，簡直是個無底洞，<strong>公司們只要持續的努力把產品做得越來越難用，我就要為了達到「原本」的使用體驗，付更多的錢。</strong></p>
+<p>所以在文章的最後，提供大家一個解方，想要知道如何遏止這些越來越爛的 App 的話，可以去看看 <a href="https://wiwi.blog/" target="_blank" rel="noopener noreferrer" class="">Wiwi</a> 的文章，他寫了很多相關的主題。</p>
+<p>而這些越來越爛的 App，能少用就盡量少用吧，減少自己的依賴程度是最好的防禦！</p>]]></content>
+        <author>
+            <name>TzuChun Chao</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[好細節喔]]></title>
         <id>https://tzuchun.com/blog/girls-talk-much</id>
         <link href="https://tzuchun.com/blog/girls-talk-much"/>
-        <updated>2026-05-22T00:00:00.000Z</updated>
+        <updated>2026-05-22T13:00:00.000Z</updated>
         <summary type="html"><![CDATA[女生講話好細節...]]></summary>
         <content type="html"><![CDATA[<p>今天旁聽一個女生朋友 A 和我們的前輩抱怨工作，並分享準備辭職的消息。</p>
 <p>但講的過程...我卻一直覺得...有點好笑（抱歉啦），因為實在是太細節了！</p>
@@ -45,7 +80,7 @@
         <title type="html"><![CDATA[10 年前的查資料方法]]></title>
         <id>https://tzuchun.com/blog/long-time-ago</id>
         <link href="https://tzuchun.com/blog/long-time-ago"/>
-        <updated>2026-04-17T00:00:00.000Z</updated>
+        <updated>2026-04-17T13:00:00.000Z</updated>
         <summary type="html"><![CDATA[耗了好幾個下午的小男孩]]></summary>
         <content type="html"><![CDATA[<p>這是一篇臨時起意寫的文章，一轉眼離上篇文章已經快兩個月了，其實這兩個月間時不時都會有想寫 Blog 的念頭，卻總被其他事情搶走優先順位，今天趁著有空檔快速寫一下這幾天想到的一件事。</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="沒有網路的時代">沒有網路的時代<a href="https://tzuchun.com/blog/long-time-ago#%E6%B2%92%E6%9C%89%E7%B6%B2%E8%B7%AF%E7%9A%84%E6%99%82%E4%BB%A3" class="hash-link" aria-label="沒有網路的時代的直接連結" title="沒有網路的時代的直接連結" translate="no">​</a></h3>
@@ -78,7 +113,7 @@
         <title type="html"><![CDATA[等高鐵好危險]]></title>
         <id>https://tzuchun.com/blog/dangerous</id>
         <link href="https://tzuchun.com/blog/dangerous"/>
-        <updated>2026-02-20T00:00:00.000Z</updated>
+        <updated>2026-02-20T13:00:00.000Z</updated>
         <summary type="html"><![CDATA[我大概有恐慌症]]></summary>
         <content type="html"><![CDATA[<p>這篇文章將會參加 <a href="https://wiwi.blog/" target="_blank" rel="noopener noreferrer" class="">Wiwi</a> 發起的 <a href="https://blogblog.club/party/" target="_blank" rel="noopener noreferrer" class="">BlogBlog 同樂會</a> 第二期！</p>
 <p>本期的主題是——「只有我這樣嗎？」</p>
@@ -103,7 +138,7 @@
         <title type="html"><![CDATA[陽光女子合唱團]]></title>
         <id>https://tzuchun.com/blog/sun-girl</id>
         <link href="https://tzuchun.com/blog/sun-girl"/>
-        <updated>2026-02-13T00:00:00.000Z</updated>
+        <updated>2026-02-13T13:00:00.000Z</updated>
         <summary type="html"><![CDATA[觀看心得]]></summary>
         <content type="html"><![CDATA[<p>情人節前夕，我和女友一起去基隆走走，這是我們第二次去基隆了，從台北市搭乘 1579 號公車，其實約半個多小時就會到了，非常方便。</p>
 <p>上午逛完潮境公園、忘憂谷後，我們就不知道要做什麼了哈哈，於是下午決定到「基隆皇冠商業大樓」裡面的秀泰影城看電影。值得一提的是，這棟已經有 25 年歷史的大樓，至今仍是基隆最高的建築，在基隆港附近抬頭四處張望一下，應該就能看到它了，我甚至當天也是用這種目測導航法的。</p>
@@ -130,7 +165,7 @@
         <title type="html"><![CDATA[BlogBlog 同樂會心得]]></title>
         <id>https://tzuchun.com/blog/review</id>
         <link href="https://tzuchun.com/blog/review"/>
-        <updated>2026-02-06T00:00:00.000Z</updated>
+        <updated>2026-02-06T13:00:00.000Z</updated>
         <summary type="html"><![CDATA[寫部落格是一件很浪漫的事情]]></summary>
         <content type="html"><![CDATA[<p>我參加了第一屆第一期 <a href="https://blogblog.club/party/" target="_blank" rel="noopener noreferrer" class="">BlogBlog 同樂會</a>，以下是我的心得～</p>
 <p>只能說，這次活動真是太成功啦！要不是有同樂會，我想我根本不會知道中文社群有這麼多活躍的部落格（畢竟身邊沒有人在寫），讀了幾篇文章後，也相當佩服筆者們的知識、文筆、品味。</p>
@@ -146,7 +181,7 @@
         <title type="html"><![CDATA[推坑無所事事]]></title>
         <id>https://tzuchun.com/blog/recommendation</id>
         <link href="https://tzuchun.com/blog/recommendation"/>
-        <updated>2026-01-23T00:00:00.000Z</updated>
+        <updated>2026-01-23T13:00:00.000Z</updated>
         <summary type="html"><![CDATA[慢慢來比較快]]></summary>
         <content type="html"><![CDATA[<p>這篇文章是為了參加 <a href="https://wiwi.blog/" target="_blank" rel="noopener noreferrer" class="">Wiwi</a> 發起的 <a href="https://blogblog.club/party/" target="_blank" rel="noopener noreferrer" class="">BlogBlog 同樂會</a> 而生的。</p>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="第一屆-blogblog-同樂會">第一屆 BlogBlog 同樂會！<a href="https://tzuchun.com/blog/recommendation#%E7%AC%AC%E4%B8%80%E5%B1%86-blogblog-%E5%90%8C%E6%A8%82%E6%9C%83" class="hash-link" aria-label="第一屆 BlogBlog 同樂會！的直接連結" title="第一屆 BlogBlog 同樂會！的直接連結" translate="no">​</a></h3>
@@ -178,7 +213,7 @@
         <title type="html"><![CDATA[貓與兔的相處之道]]></title>
         <id>https://tzuchun.com/blog/cat-and-rabbit</id>
         <link href="https://tzuchun.com/blog/cat-and-rabbit"/>
-        <updated>2026-01-05T00:00:00.000Z</updated>
+        <updated>2026-01-05T13:00:00.000Z</updated>
         <summary type="html"><![CDATA[突發奇想]]></summary>
         <content type="html"><![CDATA[<p>我和女友就像兩種動物 —— <strong>貓咪和兔子</strong>。</p>
 <p>我有許多跟貓咪相似的地方，例如潔癖、稍微有點難親近（對陌生人）、喜歡安靜的研究自己的東西。討厭麻煩、討厭噪音、不愛人多的地方。總結來說，我需要時間安靜舒適的待著，不論做事或休息或看書，當然，也需要充足的睡眠。</p>
@@ -203,7 +238,7 @@
         <title type="html"><![CDATA[神奇的公式]]></title>
         <id>https://tzuchun.com/blog/time-management</id>
         <link href="https://tzuchun.com/blog/time-management"/>
-        <updated>2025-12-26T00:00:00.000Z</updated>
+        <updated>2025-12-26T13:00:00.000Z</updated>
         <summary type="html"><![CDATA[如果常常被事情追著跑，這篇是寫給你的]]></summary>
         <content type="html"><![CDATA[<p>前幾天我看到一個公式，叫做<strong>金曼公式（Kingman's Formula）</strong>，它可以從數學的角度解釋為什麼「你永遠被任務追著跑」，有趣吧。</p>
 <p>先來看看他長什麼樣。</p>
@@ -251,7 +286,7 @@
         <title type="html"><![CDATA[公車上的父親]]></title>
         <id>https://tzuchun.com/blog/bus-dad</id>
         <link href="https://tzuchun.com/blog/bus-dad"/>
-        <updated>2025-12-19T00:00:00.000Z</updated>
+        <updated>2025-12-19T13:00:00.000Z</updated>
         <summary type="html"><![CDATA[言教不如身教]]></summary>
         <content type="html"><![CDATA[<p>昨天在搭公車的時候，發生了這樣的狀況。</p>
 <p>車上原本一片寂靜，人們各自當著低頭族，空氣中剩下引擎的低頻運轉聲。</p>
@@ -279,7 +314,7 @@
         <title type="html"><![CDATA[穿越時空的方法]]></title>
         <id>https://tzuchun.com/blog/music-time-travel</id>
         <link href="https://tzuchun.com/blog/music-time-travel"/>
-        <updated>2025-11-28T00:00:00.000Z</updated>
+        <updated>2025-11-28T13:00:00.000Z</updated>
         <summary type="html"><![CDATA[有時候，一首歌就足以讓人穿越時空]]></summary>
         <content type="html"><![CDATA[<p>如果想穿越回過去的某個時空，可以聽聽當時常聽的歌。</p>
 <p>有時在餐廳，碰巧聽見自己某個時期常聽的歌，身體會有一種奇特的感覺，彷彿我已經不是在「聽」音樂，而是身體本能地「認得」這段熟悉的旋律、歌詞、節奏、聲響。許多記憶、感受與思緒也自然地浮現出來，我稱這樣的狀況為「音樂記憶」。</p>
@@ -305,7 +340,7 @@
         <title type="html"><![CDATA[架個人網站的三個原因]]></title>
         <id>https://tzuchun.com/blog/benifits-of-website</id>
         <link href="https://tzuchun.com/blog/benifits-of-website"/>
-        <updated>2025-11-25T00:00:00.000Z</updated>
+        <updated>2025-11-25T13:00:00.000Z</updated>
         <summary type="html"><![CDATA[談談我為什麼架網站寫部落格]]></summary>
         <content type="html"><![CDATA[<p>作為一個大學生，想當然我身旁<strong>幾乎所有人都在用 Facebook, Instagram, Threads</strong> 等主流社群媒體，這讓架個人網站、寫部落格顯得有點「非主流」，甚至不知道在做什麼，但為什麽我要這麼做？</p>
 <p>簡單來說，有三個原因。</p>
@@ -329,7 +364,7 @@
         <title type="html"><![CDATA[最好不要跟大家一樣]]></title>
         <id>https://tzuchun.com/blog/be-different</id>
         <link href="https://tzuchun.com/blog/be-different"/>
-        <updated>2025-11-18T00:00:00.000Z</updated>
+        <updated>2025-11-18T13:00:00.000Z</updated>
         <summary type="html"><![CDATA[忽然想到以前國中寫作文的時候...]]></summary>
         <content type="html"><![CDATA[<p>「最好不要跟別人一樣」</p>
 <p>第一次有這個念頭，應該是國中練習寫作文的時候。當時每次拿到作文考卷後，只要是想到的前三個想法，我都一定不會寫。<strong>並不是說我很有自信能寫出什麼特別的文章，反而是我沒自信有辦法寫得比別人好</strong>。</p>
@@ -356,7 +391,7 @@
         <title type="html"><![CDATA[把事情搞定]]></title>
         <id>https://tzuchun.com/blog/get-things-done</id>
         <link href="https://tzuchun.com/blog/get-things-done"/>
-        <updated>2025-11-13T00:00:00.000Z</updated>
+        <updated>2025-11-13T13:00:00.000Z</updated>
         <summary type="html"><![CDATA[量化交易公司 CEO 給我的答覆]]></summary>
         <content type="html"><![CDATA[<p>我們社團每週都會舉行一次社課。本週的主題是量化交易，於是我們找了一位現職的量化交易員來分享，上半場由講師以簡報講解，而下半堂則是自由問答時間。</p>
 <p>我注意到許多同學都只聽上半堂的部分，下半堂決定提早離開，略過 Q&amp;A 的環節。不過我反而覺得，<strong>比起講師的簡報，真正的精髓是藏在問答當中的</strong>。這個時間可以盡情地把自己的問題拋給講師，也經常可以獲得從來沒想過的看法或洞察。</p>
@@ -378,7 +413,7 @@
         <title type="html"><![CDATA[投入大螢幕的懷抱]]></title>
         <id>https://tzuchun.com/blog/big-screen</id>
         <link href="https://tzuchun.com/blog/big-screen"/>
-        <updated>2025-11-11T00:00:00.000Z</updated>
+        <updated>2025-11-11T13:00:00.000Z</updated>
         <summary type="html"><![CDATA[使用大螢幕的優點簡直說不完]]></summary>
         <content type="html"><![CDATA[<p>今年決定送女友一個外接螢幕當生日禮物，應該是一個相當實用的禮物，她也蠻喜歡的。不過<strong>使用外接螢幕的優點實在太多了</strong>，我不得不在這邊把它寫下來！</p>
 <p>先聊聊用筆電螢幕的問題。</p>
@@ -405,7 +440,7 @@ Microsoft Research（Mark et al., 2005）長期追蹤知識工作者後發現：
         <title type="html"><![CDATA[有價值的東西]]></title>
         <id>https://tzuchun.com/blog/value-post</id>
         <link href="https://tzuchun.com/blog/value-post"/>
-        <updated>2025-11-04T00:00:00.000Z</updated>
+        <updated>2025-11-04T13:00:00.000Z</updated>
         <summary type="html"><![CDATA[整理相片時想到的...]]></summary>
         <content type="html"><![CDATA[<p>今天為了騰出一點儲存空間，需要刪除一些影片。</p>
 <p>這個流程我經歷過好幾次了，在一百個多特別大的檔案中來回翻閱，試圖找出一個當時只是不小心存到的影片，或不重要的檔案。</p>

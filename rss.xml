@@ -4,16 +4,54 @@
         <title>TzuChun.Blog 全站 RSS Feed</title>
         <link>https://tzuchun.com</link>
         <description>undefined</description>
-        <lastBuildDate>Fri, 22 May 2026 10:17:50 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Jul 2026 15:46:52 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
         <copyright>© 2026 TzuChun</copyright>
         <item>
+            <title><![CDATA[App 秀下限]]></title>
+            <link>https://tzuchun.com/blog/bad-app</link>
+            <guid>https://tzuchun.com/blog/bad-app</guid>
+            <pubDate>Fri, 24 Jul 2026 13:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>因為這兩個月比較忙，所以很久沒更新。回歸的第一篇打算寫一個短文，抱怨一下近期被幾個 App 「秀下限」的行為惹惱的那些事。</p>
+<h3>一、LINE：付費收回</h3>
+<p>大概近一兩個月，LINE 開始把收回訊息的功能改成「付費解鎖」的功能，沒有付費的用戶只能收回一小時以內的訊息。如果訊息已經送出超過一小時了，那你只會看到下面這個框框...
+<img src="/img/IMG_badline.PNG" width="250" /></p>
+<p>我真的不知道這是哪個天才想出的設計，收回自己所發出的訊息，竟然是一個需要付費的功能。從另一個角度想回來，LINE 今天想要推廣他們的付費產品 LINE Premium，不端出一點真材實料提升使用者體驗的東西，竟然好意思把收回訊息當成一個 Feature...</p>
+<p><strong>我個人推測 LINE 的這波操作，根本不會讓原本不願意花錢買 Premium 的人們掏錢出來，但倒是會很成功的惹惱大部分的免費用戶。</strong></p>
+<p>:::note[給 LINE 的友善建議]
+如果想要透過「不能收回訊息」來逼用戶買 Premium 的話，何必從「收回」下手呢？直接從「傳送」下手就好啦，直接限制免費用戶一天只能發送 20 則訊息，更有效！
+:::</p>
+<h3>二、Youtube：溫水煮青蛙的廣告數量</h3>
+<p>今天我打開 Youtube 時，廣告畫面已經長這樣了...</p>
+<img src="/img/IMG_9858.PNG" width="250" />
+
+<p>現在的廣告已經塞到佔據整個螢幕，如果要把廣告關掉，得先把下方懸浮的區塊滑掉，再按螢幕右下方的叉叉，再等待上方的廣告秒數跑完（有時還得看兩個廣告），按跳過廣告，最後才能逃離這塊塞滿廣告的螢幕。</p>
+<p>可怕的是，我體感上以前的廣告絕對沒這麼多，卻想不起來五年前 Youtube 的廣告數量「具體」是多少，因為 Youtube 一直使用溫水煮青蛙的方式，在一次次的改版中，偷偷增加廣告量，等到很長一段時間過後，突然清醒才會發現「哇靠，這是什麼廣告量」，也有很多人還來不及清醒就被煮熟了。</p>
+<p>也許十年後的 Youtube，免費用戶要觀看一部影片，開始前需要先關掉 15 個廣告，不過可能到時候大家都已經被「煮透了」，沒有人覺得有什麼不對勁的，就像我現在也想不起來以前的 Youtube 長什麼樣子一樣。</p>
+<p><strong>另一個 Youtube 簡直秀下限的設計是「關掉廣告以後的廣告」。</strong></p>
+<p>原本的設計是，在一部影片的中間會穿插一些廣告，用戶只要等個幾秒按跳過廣告，就可以繼續看影片了，但最近一個新的設計也是讓我十分驚艷，怎麼已經跳過廣告了，還有一個廣告呀？</p>
+<img src="/img/IMG_9860.PNG" width="550" />
+
+<p>這個設計簡直天才，如果你不手動把它關掉的話，它是不會自動消失的，而它的位置不偏不移的完美擋住字幕，也時常擋住重要的影片內容。</p>
+<p>套用「溫水煮青蛙」理論，只要慢慢來，這塊廣告變得越來越大，人們是不會發現異狀的。十年後的 Youtube，廣告大概已經大到擋住「整個畫面」了，並且那時的人們會說「這有什麼奇怪的？」。</p>
+<p>:::note[給 Youtube 的友善建議]
+目前的方向很正確，持續朝每部影片 15 個廣告與越來越大的廣告前進，也可以考慮做一個關掉廣告以後再關掉廣告以後的廣告。
+:::</p>
+<h3>三、無底洞與解方</h3>
+<p>以上分享幾個近期遇到「簡直在秀下限」的設計，生活中遇到的爛功能其實還更多，不過就不一一贅述。</p>
+<p>可能會有人覺得，訂閱費也不貴，花個 100-200 台幣解決一下，也沒什麼。我同意訂閱費確實不貴，但卻覺得，我要為了個「收回訊息」的功能付費，或是為了「Youtube 把 App 做得超難用」而付費，感覺超不爽！</p>
+<p>而且如果這些公司只要把 App 做得越來越難用，消費者就要付費解決的話，簡直是個無底洞，<strong>公司們只要持續的努力把產品做得越來越難用，我就要為了達到「原本」的使用體驗，付更多的錢。</strong></p>
+<p>所以在文章的最後，提供大家一個解方，想要知道如何遏止這些越來越爛的 App 的話，可以去看看 <a href="https://wiwi.blog">Wiwi</a> 的文章，他寫了很多相關的主題。</p>
+<p>而這些越來越爛的 App，能少用就盡量少用吧，減少自己的依賴程度是最好的防禦！</p>
+]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[好細節喔]]></title>
             <link>https://tzuchun.com/blog/girls-talk-much</link>
             <guid>https://tzuchun.com/blog/girls-talk-much</guid>
-            <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+            <pubDate>Fri, 22 May 2026 13:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>今天旁聽一個女生朋友 A 和我們的前輩抱怨工作，並分享準備辭職的消息。</p>
 <p>但講的過程...我卻一直覺得...有點好笑（抱歉啦），因為實在是太細節了！</p>
 <p>以下大概是女生朋友 A 講的內容（用......省略中間的話）：</p>
@@ -44,7 +82,7 @@
             <title><![CDATA[10 年前的查資料方法]]></title>
             <link>https://tzuchun.com/blog/long-time-ago</link>
             <guid>https://tzuchun.com/blog/long-time-ago</guid>
-            <pubDate>Fri, 17 Apr 2026 17:49:26 GMT</pubDate>
+            <pubDate>Fri, 17 Apr 2026 13:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>這是一篇臨時起意寫的文章，一轉眼離上篇文章已經快兩個月了，其實這兩個月間時不時都會有想寫 Blog 的念頭，卻總被其他事情搶走優先順位，今天趁著有空檔快速寫一下這幾天想到的一件事。</p>
 <h3>沒有網路的時代</h3>
 <p>最近又再一次聽到了一位教授講述他大學時期艱辛的求學過程，類似的內容我大概已經聽過 500 遍了，不外乎就是：</p>
@@ -74,7 +112,7 @@
             <title><![CDATA[等高鐵好危險]]></title>
             <link>https://tzuchun.com/blog/dangerous</link>
             <guid>https://tzuchun.com/blog/dangerous</guid>
-            <pubDate>Thu, 19 Feb 2026 17:27:11 GMT</pubDate>
+            <pubDate>Fri, 20 Feb 2026 13:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>這篇文章將會參加 <a href="https://wiwi.blog">Wiwi</a> 發起的 <a href="https://blogblog.club/party/">BlogBlog 同樂會</a> 第二期！</p>
 <p>本期的主題是——「只有我這樣嗎？」</p>
 <h3>一件攸關生命的大事</h3>
@@ -96,7 +134,7 @@
             <title><![CDATA[陽光女子合唱團]]></title>
             <link>https://tzuchun.com/blog/sun-girl</link>
             <guid>https://tzuchun.com/blog/sun-girl</guid>
-            <pubDate>Sun, 15 Feb 2026 19:25:16 GMT</pubDate>
+            <pubDate>Fri, 13 Feb 2026 13:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>情人節前夕，我和女友一起去基隆走走，這是我們第二次去基隆了，從台北市搭乘 1579 號公車，其實約半個多小時就會到了，非常方便。</p>
 <p>上午逛完潮境公園、忘憂谷後，我們就不知道要做什麼了哈哈，於是下午決定到「基隆皇冠商業大樓」裡面的秀泰影城看電影。值得一提的是，這棟已經有 25 年歷史的大樓，至今仍是基隆最高的建築，在基隆港附近抬頭四處張望一下，應該就能看到它了，我甚至當天也是用這種目測導航法的。</p>
 <h3>陽光女子合唱團</h3>
@@ -120,7 +158,7 @@
             <title><![CDATA[BlogBlog 同樂會心得]]></title>
             <link>https://tzuchun.com/blog/review</link>
             <guid>https://tzuchun.com/blog/review</guid>
-            <pubDate>Fri, 06 Feb 2026 12:39:19 GMT</pubDate>
+            <pubDate>Fri, 06 Feb 2026 13:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>我參加了第一屆第一期 <a href="https://blogblog.club/party/">BlogBlog 同樂會</a>，以下是我的心得～</p>
 <p>只能說，這次活動真是太成功啦！要不是有同樂會，我想我根本不會知道中文社群有這麼多活躍的部落格（畢竟身邊沒有人在寫），讀了幾篇文章後，也相當佩服筆者們的知識、文筆、品味。</p>
 <p>我不太知道該如何表達我的感受，但大概就是，<strong>我在部落格中，看到許多真正具有重量的文字，也看到許多願意記錄下來的想法。一切都是真摯且用心的，這是我在主流文字社群平台上從未有過的感受</strong>。</p>
@@ -133,7 +171,7 @@
             <title><![CDATA[推坑無所事事]]></title>
             <link>https://tzuchun.com/blog/recommendation</link>
             <guid>https://tzuchun.com/blog/recommendation</guid>
-            <pubDate>Fri, 30 Jan 2026 10:16:46 GMT</pubDate>
+            <pubDate>Fri, 23 Jan 2026 13:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>這篇文章是為了參加 <a href="https://wiwi.blog">Wiwi</a> 發起的 <a href="https://blogblog.club/party/">BlogBlog 同樂會</a> 而生的。</p>
 <h3>第一屆 BlogBlog 同樂會！</h3>
 <p>在這個短影片、短文當道的時代，竟然有一群人想要在各自的部落格上用心寫文章，然後互相交流分享，<strong>這麼有「人味」又「稀少」的活動實在太熱血了</strong>，而且還是第一屆，我一定要來參與一下。</p>
@@ -159,32 +197,10 @@
 ]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[貓與兔的相處之道]]></title>
-            <link>https://tzuchun.com/blog/cat-and-rabbit</link>
-            <guid>https://tzuchun.com/blog/cat-and-rabbit</guid>
-            <pubDate>Fri, 23 Jan 2026 10:53:44 GMT</pubDate>
-            <content:encoded><![CDATA[<p>我和女友就像兩種動物 —— <strong>貓咪和兔子</strong>。</p>
-<p>我有許多跟貓咪相似的地方，例如潔癖、稍微有點難親近（對陌生人）、喜歡安靜的研究自己的東西。討厭麻煩、討厭噪音、不愛人多的地方。總結來說，我需要時間安靜舒適的待著，不論做事或休息或看書，當然，也需要充足的睡眠。</p>
-<p>而我覺得女友像是一隻兔子，精力旺盛的跳來跳去。她似乎對所有事情都有興趣，也喜歡到處跑來跑去。另外，她親和力應該也不錯，整體算是一隻很有活力的友善兔子。</p>
-<p>活力兔喜歡把自己的行程排得滿滿的，到處跑來跑去，做不同的事情。一開始貓咪看起來，不免有點驚訝，原來有人的生活是長這樣的呀，看起來很有活力也很多采多姿，甚至讓貓咪有點懷疑自己的生活，是不是哪裡有點問題？</p>
-<p>貓咪比較喜歡專心做幾件想做的事，因為選擇很少，所以可以很聚焦，也可以把事情慢慢地做好。一開始兔子看到，也同樣感到驚訝，原來有人是這樣的嗎？ 兔子開始懷疑自己是不是太發散了，事情也處理得不夠穩妥。</p>
-<p>因為貓和兔的不同，我們各自對自己產生了一些懷疑，也跟世上任何情侶一樣，經常會有意見不合的地方，或是吵架。</p>
-<p><strong>不過也因為不同，我們都為對方帶來生活中不曾出現的東西</strong>。貓咪可以帶給兔子更多的穩定性、安全感，也幫助兔子一步步變得更聚焦。而兔子則為貓咪的生活帶來新意與樂趣，帶領貓咪學習放輕鬆，接受生活可以更有彈性。</p>
-<p>我想，貓咪和兔子的相處之道，就是意識到，<strong>貓咪是貓咪，兔子是兔子。我們不可能一樣，但可以互相理解和配合</strong>。貓咪學習配合兔子更彈性、變化多端的生活。而兔子則學習給予貓咪想要的穩定性與簡單。</p>
-<p>這件事很難，我們還在摸索中。</p>
-<p>不過我想，貓咪和兔子會繼續走下去。</p>
-<p>・</p>
-<p>・</p>
-<p>・</p>
-<p>當然也有可能最後貓咪決定去找其他貓咪，兔子決定去找兔子...</p>
-<p>好沒，開玩笑的（這篇文章的質感就被這句毀了呵呵）。</p>
-]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[為什麼要睡覺]]></title>
             <link>https://tzuchun.com/docs/books-wht-we-sleep/</link>
             <guid>https://tzuchun.com/docs/books-wht-we-sleep/</guid>
-            <pubDate>Thu, 08 Jan 2026 00:00:00 GMT</pubDate>
+            <pubDate>Thu, 08 Jan 2026 13:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>:::info
 本書約 20 萬字 耗時 8 小時 42 分鐘閱讀；本文約 2200 字，閱讀時間約 8 分鐘。
 :::</p>
@@ -248,10 +264,32 @@
 ]]></content:encoded>
         </item>
         <item>
+            <title><![CDATA[貓與兔的相處之道]]></title>
+            <link>https://tzuchun.com/blog/cat-and-rabbit</link>
+            <guid>https://tzuchun.com/blog/cat-and-rabbit</guid>
+            <pubDate>Mon, 05 Jan 2026 13:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>我和女友就像兩種動物 —— <strong>貓咪和兔子</strong>。</p>
+<p>我有許多跟貓咪相似的地方，例如潔癖、稍微有點難親近（對陌生人）、喜歡安靜的研究自己的東西。討厭麻煩、討厭噪音、不愛人多的地方。總結來說，我需要時間安靜舒適的待著，不論做事或休息或看書，當然，也需要充足的睡眠。</p>
+<p>而我覺得女友像是一隻兔子，精力旺盛的跳來跳去。她似乎對所有事情都有興趣，也喜歡到處跑來跑去。另外，她親和力應該也不錯，整體算是一隻很有活力的友善兔子。</p>
+<p>活力兔喜歡把自己的行程排得滿滿的，到處跑來跑去，做不同的事情。一開始貓咪看起來，不免有點驚訝，原來有人的生活是長這樣的呀，看起來很有活力也很多采多姿，甚至讓貓咪有點懷疑自己的生活，是不是哪裡有點問題？</p>
+<p>貓咪比較喜歡專心做幾件想做的事，因為選擇很少，所以可以很聚焦，也可以把事情慢慢地做好。一開始兔子看到，也同樣感到驚訝，原來有人是這樣的嗎？ 兔子開始懷疑自己是不是太發散了，事情也處理得不夠穩妥。</p>
+<p>因為貓和兔的不同，我們各自對自己產生了一些懷疑，也跟世上任何情侶一樣，經常會有意見不合的地方，或是吵架。</p>
+<p><strong>不過也因為不同，我們都為對方帶來生活中不曾出現的東西</strong>。貓咪可以帶給兔子更多的穩定性、安全感，也幫助兔子一步步變得更聚焦。而兔子則為貓咪的生活帶來新意與樂趣，帶領貓咪學習放輕鬆，接受生活可以更有彈性。</p>
+<p>我想，貓咪和兔子的相處之道，就是意識到，<strong>貓咪是貓咪，兔子是兔子。我們不可能一樣，但可以互相理解和配合</strong>。貓咪學習配合兔子更彈性、變化多端的生活。而兔子則學習給予貓咪想要的穩定性與簡單。</p>
+<p>這件事很難，我們還在摸索中。</p>
+<p>不過我想，貓咪和兔子會繼續走下去。</p>
+<p>・</p>
+<p>・</p>
+<p>・</p>
+<p>當然也有可能最後貓咪決定去找其他貓咪，兔子決定去找兔子...</p>
+<p>好沒，開玩笑的（這篇文章的質感就被這句毀了呵呵）。</p>
+]]></content:encoded>
+        </item>
+        <item>
             <title><![CDATA[神奇的公式]]></title>
             <link>https://tzuchun.com/blog/time-management</link>
             <guid>https://tzuchun.com/blog/time-management</guid>
-            <pubDate>Fri, 26 Dec 2025 00:00:00 GMT</pubDate>
+            <pubDate>Fri, 26 Dec 2025 13:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>前幾天我看到一個公式，叫做<strong>金曼公式（Kingman&#39;s Formula）</strong>，它可以從數學的角度解釋為什麼「你永遠被任務追著跑」，有趣吧。</p>
 <p>先來看看他長什麼樣。</p>
 <img src="/blogimg/Kingman.png" alt="2019" width="350" />
@@ -291,7 +329,7 @@
             <title><![CDATA[公車上的父親]]></title>
             <link>https://tzuchun.com/blog/bus-dad</link>
             <guid>https://tzuchun.com/blog/bus-dad</guid>
-            <pubDate>Fri, 19 Dec 2025 00:00:00 GMT</pubDate>
+            <pubDate>Fri, 19 Dec 2025 13:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>昨天在搭公車的時候，發生了這樣的狀況。</p>
 <p>車上原本一片寂靜，人們各自當著低頭族，空氣中剩下引擎的低頻運轉聲。</p>
 <p>忽然，<strong>一陣急促、幾乎張狂的吼叫打破了寂靜</strong>，讓所有人的身體反射性地顫抖了一下，紛紛把頭抬起來，注視著聲音的來源，試圖理解發生了什麼。</p>
@@ -316,7 +354,7 @@
             <title><![CDATA[穿越時空的方法]]></title>
             <link>https://tzuchun.com/blog/music-time-travel</link>
             <guid>https://tzuchun.com/blog/music-time-travel</guid>
-            <pubDate>Fri, 28 Nov 2025 00:00:00 GMT</pubDate>
+            <pubDate>Fri, 28 Nov 2025 13:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>如果想穿越回過去的某個時空，可以聽聽當時常聽的歌。</p>
 <p>有時在餐廳，碰巧聽見自己某個時期常聽的歌，身體會有一種奇特的感覺，彷彿我已經不是在「聽」音樂，而是身體本能地「認得」這段熟悉的旋律、歌詞、節奏、聲響。許多記憶、感受與思緒也自然地浮現出來，我稱這樣的狀況為「音樂記憶」。</p>
 <p>在我的成長過程中，我能想到一些歌曲有某個時空的代表性，總能喚起我的音樂記憶。</p>
@@ -339,7 +377,7 @@
             <title><![CDATA[架個人網站的三個原因]]></title>
             <link>https://tzuchun.com/blog/benifits-of-website</link>
             <guid>https://tzuchun.com/blog/benifits-of-website</guid>
-            <pubDate>Tue, 25 Nov 2025 00:00:00 GMT</pubDate>
+            <pubDate>Tue, 25 Nov 2025 13:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>作為一個大學生，想當然我身旁<strong>幾乎所有人都在用 Facebook, Instagram, Threads</strong> 等主流社群媒體，這讓架個人網站、寫部落格顯得有點「非主流」，甚至不知道在做什麼，但為什麽我要這麼做？</p>
 <p>簡單來說，有三個原因。</p>
 <h3>一、受到 Wiwi 啟發</h3>
@@ -361,7 +399,7 @@
             <title><![CDATA[最好不要跟大家一樣]]></title>
             <link>https://tzuchun.com/blog/be-different</link>
             <guid>https://tzuchun.com/blog/be-different</guid>
-            <pubDate>Tue, 18 Nov 2025 00:00:00 GMT</pubDate>
+            <pubDate>Tue, 18 Nov 2025 13:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>「最好不要跟別人一樣」</p>
 <p>第一次有這個念頭，應該是國中練習寫作文的時候。當時每次拿到作文考卷後，只要是想到的前三個想法，我都一定不會寫。<strong>並不是說我很有自信能寫出什麼特別的文章，反而是我沒自信有辦法寫得比別人好</strong>。</p>
 <p>我總覺得，要是跟大家寫差不多的主題，那我的作文應該就被淹沒在其他一百個類似的文章中了吧，而且評審老師看了一堆一樣的主題，一定都看到厭煩了。所以拿到作文題目後，我都會盡量寫一個比較特別的主題。</p>
@@ -387,7 +425,7 @@
             <title><![CDATA[原子習慣（下）]]></title>
             <link>https://tzuchun.com/docs/books-AtomicHabits-2/</link>
             <guid>https://tzuchun.com/docs/books-AtomicHabits-2/</guid>
-            <pubDate>Sun, 16 Nov 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sun, 16 Nov 2025 13:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>在 <a href="/docs/notes-books/atomic-habits-1.md">原子習慣（上）</a>中建立好基礎知識後，接下來我們應該怎麼做？</p>
 <h3>一、從改變身份認同開始</h3>
 <p>「我不能賴床」和「我是早起的人」，有發現他們之間的微小差異嗎？</p>
@@ -433,7 +471,7 @@
             <title><![CDATA[原子習慣（上）]]></title>
             <link>https://tzuchun.com/docs/books-AtomicHabits/</link>
             <guid>https://tzuchun.com/docs/books-AtomicHabits/</guid>
-            <pubDate>Sat, 15 Nov 2025 00:00:00 GMT</pubDate>
+            <pubDate>Sat, 15 Nov 2025 13:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>這篇文章我們來統整【原子習慣】中的核心知識，並解惑那些關於養成習慣的錯誤理解。</p>
 <h3>一、「進步」也許不是你想的那樣</h3>
 <p>大多數人經常對「進步」這件事有誤解，認為<strong>只要付出時間、心力...就可以換取等量的進步</strong>。</p>
@@ -463,7 +501,7 @@
             <title><![CDATA[把事情搞定]]></title>
             <link>https://tzuchun.com/blog/get-things-done</link>
             <guid>https://tzuchun.com/blog/get-things-done</guid>
-            <pubDate>Thu, 13 Nov 2025 00:00:00 GMT</pubDate>
+            <pubDate>Thu, 13 Nov 2025 13:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>我們社團每週都會舉行一次社課。本週的主題是量化交易，於是我們找了一位現職的量化交易員來分享，上半場由講師以簡報講解，而下半堂則是自由問答時間。</p>
 <p>我注意到許多同學都只聽上半堂的部分，下半堂決定提早離開，略過 Q&amp;A 的環節。不過我反而覺得，<strong>比起講師的簡報，真正的精髓是藏在問答當中的</strong>。這個時間可以盡情地把自己的問題拋給講師，也經常可以獲得從來沒想過的看法或洞察。</p>
 <p>幸運的是，昨天除了交易員，公司的 CEO 也來到了現場，並且願意上台回答十個問題。</p>
@@ -482,7 +520,7 @@
             <title><![CDATA[投入大螢幕的懷抱]]></title>
             <link>https://tzuchun.com/blog/big-screen</link>
             <guid>https://tzuchun.com/blog/big-screen</guid>
-            <pubDate>Tue, 11 Nov 2025 00:00:00 GMT</pubDate>
+            <pubDate>Tue, 11 Nov 2025 13:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>今年決定送女友一個外接螢幕當生日禮物，應該是一個相當實用的禮物，她也蠻喜歡的。不過<strong>使用外接螢幕的優點實在太多了</strong>，我不得不在這邊把它寫下來！</p>
 <p>先聊聊用筆電螢幕的問題。</p>
 <p>不外乎就是螢幕太小了，所以內容無法放大，並且因為只有一個螢幕，當你要開啟多個視窗時，得把原本就不大的螢幕切割成更小的格子，或是頻繁的切換視窗。</p>
@@ -506,7 +544,7 @@
             <title><![CDATA[有價值的東西]]></title>
             <link>https://tzuchun.com/blog/value-post</link>
             <guid>https://tzuchun.com/blog/value-post</guid>
-            <pubDate>Tue, 04 Nov 2025 00:00:00 GMT</pubDate>
+            <pubDate>Tue, 04 Nov 2025 13:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>今天為了騰出一點儲存空間，需要刪除一些影片。  </p>
 <p>這個流程我經歷過好幾次了，在一百個多特別大的檔案中來回翻閱，試圖找出一個當時只是不小心存到的影片，或不重要的檔案。</p>
 <p>在過程中我發現，有些檔案我<strong>從不考慮刪除它們</strong>，而它們大概有幾個特點。</p>
@@ -531,7 +569,7 @@
             <title><![CDATA[刻意練習（下）]]></title>
             <link>https://tzuchun.com/docs/books-deliberately-practice-2/</link>
             <guid>https://tzuchun.com/docs/books-deliberately-practice-2/</guid>
-            <pubDate>Tue, 04 Nov 2025 00:00:00 GMT</pubDate>
+            <pubDate>Tue, 04 Nov 2025 13:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>接著我們將講到<strong>本書精髓 - 刻意練習</strong><br>如果還沒看過<a href="/docs/notes-books/deliberately-practice-1.md">刻意練習（上）</a>很建議先去看那篇文章喔。</p>
 <h3>一、刻意練習能改變生理狀態</h3>
 <p>在這個段落，作者舉了大量實驗和故事證明人體的<strong>適應力極強</strong>，基本上是用進廢退的概念。舉例來說，許多科學家、音樂家、醫生的大腦的某個關鍵區域都比常人還更活躍或是更大，這就是大腦隨著不斷練習漸漸進化的證明。</p>
@@ -570,7 +608,7 @@
             <title><![CDATA[刻意練習（上）]]></title>
             <link>https://tzuchun.com/docs/books-deliberately-practice-1/</link>
             <guid>https://tzuchun.com/docs/books-deliberately-practice-1/</guid>
-            <pubDate>Thu, 30 Oct 2025 00:00:00 GMT</pubDate>
+            <pubDate>Thu, 30 Oct 2025 13:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>你相信天份嗎？天才與常人的距離又有多遠？<br>也許這本書將讓你對所有「不可能達成的事」改觀。</p>
 <p>:::tip[本文資訊]</p>
 <p>本書約 14 萬字，閱讀耗時 8 小時又 30 分鐘 ;    </p>
