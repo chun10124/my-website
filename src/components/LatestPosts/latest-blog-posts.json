@@ -1,5 +1,14 @@
 [
   {
+    "title": "挪威人為什麼這麼 Chill",
+    "permalink": "/blog/why-so-chill",
+    "description": "長期建立起來的安定感",
+    "tags": [],
+    "date": "2026-08-29T00:00:00.000Z",
+    "formattedDate": "29 Aug 2026",
+    "image": "/blogimg/IMG_0032.jpeg"
+  },
+  {
     "title": "App 秀下限",
     "permalink": "/blog/bad-app",
     "description": "近期被惹惱的設計",
@@ -34,14 +43,5 @@
     "date": "2026-02-20T00:00:00.000Z",
     "formattedDate": "20 Feb 2026",
     "image": null
-  },
-  {
-    "title": "陽光女子合唱團",
-    "permalink": "/blog/sun-girl",
-    "description": "觀看心得",
-    "tags": [],
-    "date": "2026-02-13T00:00:00.000Z",
-    "formattedDate": "13 Feb 2026",
-    "image": "/blogimg/keelung.jpeg"
   }
 ]
